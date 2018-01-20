@@ -2,9 +2,9 @@
 	"description": "NativeScript Application",
 	"license": "SEE LICENSE IN <your-license-filename>",
 	"readme": "NativeScript Application",
-	"repository": "<fill-your-repository-here>",
+	"repository": "https://gitlab.com/polpoy/App-SCFX-Nativescript",
 	"nativescript": {
-		"id": "org.nativescript.MyApp"
+		"id": "com.foobar.scfx"
 	},
 	"dependencies": {
 		"@angular/animations": "~5.2.0",
