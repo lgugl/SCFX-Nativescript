@@ -2,3 +2,5 @@
 node_modules/
 npm-debug.log
 platforms/
+src/app/**/*.js
+tmp/

@@ -10,3 +10,13 @@ of writing your own CSS rules. For a full list of class names in the theme
 refer to http://docs.nativescript.org/ui/theme.
 */
 @import '~nativescript-theme-core/css/core.light.css';
+
+Page {
+    background-size: 50% 33%;
+    background-image: url("res://app_background");
+    font-size: 24;
+}
+
+Button {
+    background-color: papayawhip;
+}

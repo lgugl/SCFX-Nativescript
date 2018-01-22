@@ -4,7 +4,10 @@
 	"readme": "NativeScript Application",
 	"repository": "https://gitlab.com/polpoy/App-SCFX-Nativescript",
 	"nativescript": {
-		"id": "com.foobar.scfx"
+		"id": "com.foobar.scfx",
+		"tns-android": {
+			"version": "3.4.1"
+		}
 	},
 	"dependencies": {
 		"@angular/animations": "~5.2.0",
@@ -24,6 +27,10 @@
 		"zone.js": "~0.8.2"
 	},
 	"devDependencies": {
+		"babel-traverse": "6.26.0",
+		"babel-types": "6.26.0",
+		"babylon": "6.18.0",
+		"lazy": "1.0.11",
 		"nativescript-dev-typescript": "~0.6.0",
 		"typescript": "~2.6.2"
 	}
