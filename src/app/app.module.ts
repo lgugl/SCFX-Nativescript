@@ -1,16 +1,20 @@
 import { NgModule } from "@angular/core";
 import { NativeScriptModule } from "nativescript-angular/nativescript.module";
+import { AppComponent } from "./app.component";
+import { AppRoutingModule } from "./app.routing";
 import { HomeComponent } from "./pages/home/home.component";
 
 @NgModule({
     imports: [
         NativeScriptModule,
+        AppRoutingModule
     ],
     declarations: [
-        HomeComponent,
+        AppComponent,
+        HomeComponent
     ],
     bootstrap: [
-        HomeComponent
+        AppComponent
     ]
 })
 
