@@ -1,8 +1,8 @@
 import { Component, OnInit } from "@angular/core";
-import {Page} from "ui/page";
+import { Page } from "ui/page";
 
 @Component({
-    selector: "ns-home",
+    selector: "main",
     template: "<page-router-outlet></page-router-outlet>"
 })
 
