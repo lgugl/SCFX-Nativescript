@@ -1,8 +1,8 @@
 import { Component } from "@angular/core";
 
 @Component({
-    selector: "ns-home",
-    templateUrl: "./pages/home/home.component.html"
+    selector: "home",
+    templateUrl: "./pages/home/home.html"
 })
 
 export class HomeComponent {}
