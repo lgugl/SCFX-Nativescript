@@ -1,0 +1,32 @@
+[
+    {
+        "id": "PAdvisor",
+        "name": "Advisor",
+        "frenchName": "Conseillé",
+        "fiddleAnimations": null,
+        "talkAnimations": null,
+        "sounds": [
+            {
+                "id": "update1",
+                "name": "Update 1",
+                "sound": "padupd00",
+                "text": "We are under attack!"
+            }
+        ]
+    },
+    {
+        "id": "Probe",
+        "name": "Probe (Worker)",
+        "frenchName": "Sonde (Ouvrier)",
+        "fiddleAnimations": null,
+        "talkAnimations": null,
+        "sounds": [
+            {
+                "id": "ready",
+                "name": "Ready",
+                "sound": "pprrdy00",
+                "text": "(Robotic)"
+            }
+        ]
+    }
+]

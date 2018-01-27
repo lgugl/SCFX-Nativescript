@@ -31,6 +31,8 @@
 import { Component, OnInit } from "@angular/core";
 import { ActivatedRoute } from "@angular/router";
 
+import { UnitService } from "./../../shared/unit.service";
+
 @Component({
   selector: "faction",
   moduleId: module.id,
@@ -41,12 +43,13 @@ export class FactionComponent implements OnInit {
     id: string;
     units: Array<Object> = [];
 
-    constructor(private route: ActivatedRoute) {}
+    constructor(
+        private route: ActivatedRoute,
+        private unitService: UnitService
+    ) {}
 
     ngOnInit() {
         this.id = this.route.snapshot.params['id'];
-        this.units.push({ name: "Apples" });
-        this.units.push({ name: "Bananas" });
-        this.units.push({ name: "Oranges" });
+        this.units = this.unitService.getUnits();
     }
 }
