@@ -1,0 +1,249 @@
+[
+    {
+        "id": "ZAdvisor",
+        "name": "Advisor",
+        "frenchName": "Conseill\u00e9",
+        "fiddleAnimations": null,
+        "talkAnimations": null,
+        "sounds": {
+            "id": "error4",
+            "name": "Error 4",
+            "sound": "zaderr06",
+            "text": "Not enough energy."
+        }
+    },
+    {
+        "id": "Larva",
+        "name": "Larva",
+        "frenchName": "Larve",
+        "fiddleAnimations": "[\"Fid00\"]",
+        "talkAnimations": "[\"Tlk00\"]",
+        "sounds": {
+            "id": "death",
+            "name": "Death",
+            "sound": "zladth00",
+            "text": ""
+        }
+    },
+    {
+        "id": "Egg",
+        "name": "Egg",
+        "frenchName": "Oeuf",
+        "fiddleAnimations": null,
+        "talkAnimations": null,
+        "sounds": {
+            "id": "death",
+            "name": "Death",
+            "sound": "zegdth00",
+            "text": ""
+        }
+    },
+    {
+        "id": "Overlord",
+        "name": "Overlord (Transport)",
+        "frenchName": "Overlord (Transport)",
+        "fiddleAnimations": null,
+        "talkAnimations": null,
+        "sounds": {
+            "id": "death",
+            "name": "Death",
+            "sound": "zovdth00",
+            "text": ""
+        }
+    },
+    {
+        "id": "Drone",
+        "name": "Drone (Worker)",
+        "frenchName": "Drone (Ouvrier)",
+        "fiddleAnimations": null,
+        "talkAnimations": null,
+        "sounds": {
+            "id": "death",
+            "name": "Death",
+            "sound": "zdrdth00",
+            "text": ""
+        }
+    },
+    {
+        "id": "Zergling",
+        "name": "Zergling",
+        "frenchName": "Zergling",
+        "fiddleAnimations": null,
+        "talkAnimations": null,
+        "sounds": {
+            "id": "death",
+            "name": "Death",
+            "sound": "zzedth00",
+            "text": ""
+        }
+    },
+    {
+        "id": "Hydralisk",
+        "name": "Hydralisk",
+        "frenchName": "Hydralisk",
+        "fiddleAnimations": null,
+        "talkAnimations": null,
+        "sounds": {
+            "id": "death",
+            "name": "Death",
+            "sound": "zhydth00",
+            "text": ""
+        }
+    },
+    {
+        "id": "Lurker",
+        "name": "Lurker",
+        "frenchName": "Lurker",
+        "fiddleAnimations": null,
+        "talkAnimations": null,
+        "sounds": {
+            "id": "death",
+            "name": "Death",
+            "sound": "zludth00",
+            "text": ""
+        }
+    },
+    {
+        "id": "Scourge",
+        "name": "Scourge",
+        "frenchName": "Masse",
+        "fiddleAnimations": null,
+        "talkAnimations": "[\"Tlk00\"]",
+        "sounds": {
+            "id": "death",
+            "name": "Death",
+            "sound": "zavdth00",
+            "text": ""
+        }
+    },
+    {
+        "id": "Mutalisk",
+        "name": "Mutalisk",
+        "frenchName": "Mutalisk",
+        "fiddleAnimations": null,
+        "talkAnimations": null,
+        "sounds": {
+            "id": "death",
+            "name": "Death",
+            "sound": "zmudth00",
+            "text": ""
+        }
+    },
+    {
+        "id": "Guardian",
+        "name": "Guardian",
+        "frenchName": "Guardien",
+        "fiddleAnimations": null,
+        "talkAnimations": null,
+        "sounds": {
+            "id": "death",
+            "name": "Death",
+            "sound": "zgudth00",
+            "text": ""
+        }
+    },
+    {
+        "id": "Devourer",
+        "name": "Devourer",
+        "frenchName": "D\u00e9voreur",
+        "fiddleAnimations": null,
+        "talkAnimations": null,
+        "sounds": {
+            "id": "death",
+            "name": "Death",
+            "sound": "zdvdth00",
+            "text": ""
+        }
+    },
+    {
+        "id": "Queen",
+        "name": "Queen",
+        "frenchName": "Reine",
+        "fiddleAnimations": null,
+        "talkAnimations": "[\"Tlk00\"]",
+        "sounds": {
+            "id": "death3",
+            "name": "Death 3",
+            "sound": "zqudth02",
+            "text": ""
+        }
+    },
+    {
+        "id": "Broodling",
+        "name": "Broodling",
+        "frenchName": "Broodling",
+        "fiddleAnimations": null,
+        "talkAnimations": null,
+        "sounds": {
+            "id": "death",
+            "name": "Death",
+            "sound": "zbrdth00",
+            "text": ""
+        }
+    },
+    {
+        "id": "Ultralisk",
+        "name": "Ultralisk",
+        "frenchName": "Ultralisk",
+        "fiddleAnimations": "[\"Fid00\",\"Fid01\",\"Fid02\"]",
+        "talkAnimations": null,
+        "sounds": {
+            "id": "death",
+            "name": "Death",
+            "sound": "zuldth00",
+            "text": ""
+        }
+    },
+    {
+        "id": "Defiler",
+        "name": "Defiler",
+        "frenchName": "Saboteur",
+        "fiddleAnimations": null,
+        "talkAnimations": "[\"Tlk00\",\"Tlk01\"]",
+        "sounds": {
+            "id": "death",
+            "name": "Death",
+            "sound": "zdedth00",
+            "text": ""
+        }
+    },
+    {
+        "id": "InfestedTerran",
+        "name": "Infested Terran",
+        "frenchName": "Terran infest\u00e9",
+        "fiddleAnimations": null,
+        "talkAnimations": null,
+        "sounds": {
+            "id": "annoyance4",
+            "name": "Annoyance 4",
+            "sound": "zbgpss03",
+            "text": "I am Zerg!"
+        }
+    },
+    {
+        "id": "InfestedDuran",
+        "name": "Infested Duran",
+        "frenchName": "Duran infest\u00e9",
+        "fiddleAnimations": null,
+        "talkAnimations": null,
+        "sounds": {
+            "id": "death",
+            "name": "Death",
+            "sound": "zdndth00",
+            "text": ""
+        }
+    },
+    {
+        "id": "InfestedKerrigan",
+        "name": "Infested Kerrigan",
+        "frenchName": "Kerrigan infest\u00e9e",
+        "fiddleAnimations": "[\"Fid00\",\"Fid01\",\"Fid02\"]",
+        "talkAnimations": null,
+        "sounds": {
+            "id": "death",
+            "name": "Death",
+            "sound": "ukidth00",
+            "text": ""
+        }
+    }
+]

@@ -1,33 +1,3 @@
-// import { Component, ElementRef, OnInit, ViewChild } from "@angular/core";
-// import { ActivatedRoute } from "@angular/router";
-
-// import { UnitService } from "./../../shared/unit.service";
-
-// @Component({
-//     selector: "ns-faction",
-//     moduleId: module.id,
-//     templateUrl: "./faction.html"
-// })
-
-// export class FactionComponent implements OnInit {
-//     id: string;
-//     units: Array<Object> = [];
-
-//     constructor(
-//         private route: ActivatedRoute,
-//         private unitService: UnitService
-//     ) { }
-
-//     ngOnInit(): void {
-//         const faction = this.route.snapshot.params["id"];
-//         this.id = faction;
-//         // this.units = this.unitService.getUnits();
-//         this.units.push({name: "A"});
-//         this.units.push({name: "B"});
-//         this.units.push({name: "C"});
-//     }
-// }
-
 import { Component, OnInit } from "@angular/core";
 import { ActivatedRoute } from "@angular/router";
 
@@ -50,6 +20,6 @@ export class FactionComponent implements OnInit {
 
     ngOnInit() {
         this.id = this.route.snapshot.params['id'];
-        this.units = this.unitService.getUnits();
+        this.units = this.unitService.loadFaction(this.id).getUnits();
     }
 }

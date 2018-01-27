@@ -1,5 +1,6 @@
 export interface Sound {
-    name: string,
-    sound: string,
-    text: string
+    id: String
+    name: String,
+    sound: String,
+    text: String
 }

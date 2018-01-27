@@ -1,0 +1,275 @@
+[
+    {
+        "id": "TAdvisor",
+        "name": "Advisor",
+        "frenchName": "Conseill\u00e9",
+        "fiddleAnimations": null,
+        "talkAnimations": null,
+        "sounds": {
+            "id": "error6",
+            "name": "Error 6",
+            "sound": "taderr06",
+            "text": "Not enough energy."
+        }
+    },
+    {
+        "id": "Civilian",
+        "name": "Civilian",
+        "frenchName": "Civil",
+        "fiddleAnimations": "[\"Fid00\",\"Fid01\",\"Fid02\"]",
+        "talkAnimations": "[]",
+        "sounds": {
+            "id": "death",
+            "name": "Death",
+            "sound": "tcvdth00",
+            "text": ""
+        }
+    },
+    {
+        "id": "SCV",
+        "name": "SCV (Worker)",
+        "frenchName": "VCS (Ouvrier)",
+        "fiddleAnimations": null,
+        "talkAnimations": null,
+        "sounds": {
+            "id": "death",
+            "name": "Death",
+            "sound": "tscdth00",
+            "text": ""
+        }
+    },
+    {
+        "id": "Marine",
+        "name": "Marine",
+        "frenchName": "Marine",
+        "fiddleAnimations": null,
+        "talkAnimations": null,
+        "sounds": {
+            "id": "death2",
+            "name": "Death 2",
+            "sound": "tmadth01",
+            "text": ""
+        }
+    },
+    {
+        "id": "Firebat",
+        "name": "Firebat",
+        "frenchName": "Flammeur",
+        "fiddleAnimations": null,
+        "talkAnimations": "[\"Tlk00\",\"Tlk01\"]",
+        "sounds": {
+            "id": "death3",
+            "name": "Death 3",
+            "sound": "tfbdth02",
+            "text": ""
+        }
+    },
+    {
+        "id": "Medic",
+        "name": "Medic",
+        "frenchName": "Officier, m\u00e9dical",
+        "fiddleAnimations": null,
+        "talkAnimations": null,
+        "sounds": {
+            "id": "death",
+            "name": "Death",
+            "sound": "tmddth00",
+            "text": ""
+        }
+    },
+    {
+        "id": "Ghost",
+        "name": "Ghost",
+        "frenchName": "Fantome",
+        "fiddleAnimations": null,
+        "talkAnimations": "[\"Tlk00\"]",
+        "sounds": {
+            "id": "death2",
+            "name": "Death 2",
+            "sound": "tghdth01",
+            "text": ""
+        }
+    },
+    {
+        "id": "Vulture",
+        "name": "Vulture",
+        "frenchName": "Vautour",
+        "fiddleAnimations": null,
+        "talkAnimations": "[\"Tlk00\",\"Tlk01\"]",
+        "sounds": {
+            "id": "death",
+            "name": "Death",
+            "sound": "tvudth00",
+            "text": ""
+        }
+    },
+    {
+        "id": "SiegeTank",
+        "name": "Siege Tank",
+        "frenchName": "Char de si\u00e8ge",
+        "fiddleAnimations": null,
+        "talkAnimations": null,
+        "sounds": {
+            "id": "death",
+            "name": "Death",
+            "sound": "ttadth00",
+            "text": ""
+        }
+    },
+    {
+        "id": "Goliath",
+        "name": "Goliath",
+        "frenchName": "Goliath",
+        "fiddleAnimations": "[\"Fid00\",\"Fid01\",\"Fid02\"]",
+        "talkAnimations": "[\"Tlk00\",\"Tlk01\"]",
+        "sounds": {
+            "id": "death",
+            "name": "Death",
+            "sound": "tgodth00",
+            "text": ""
+        }
+    },
+    {
+        "id": "Wraith",
+        "name": "Wraith",
+        "frenchName": "Ombre",
+        "fiddleAnimations": "[\"Fid00\",\"Fid01\",\"Fid02\"]",
+        "talkAnimations": null,
+        "sounds": {
+            "id": "death",
+            "name": "Death",
+            "sound": "tphdth00",
+            "text": ""
+        }
+    },
+    {
+        "id": "Dropship",
+        "name": "Dropship (Transport)",
+        "frenchName": "Transport",
+        "fiddleAnimations": null,
+        "talkAnimations": null,
+        "sounds": {
+            "id": "death",
+            "name": "Death",
+            "sound": "tdrdth00",
+            "text": ""
+        }
+    },
+    {
+        "id": "ScienceVessel",
+        "name": "Science Vessel",
+        "frenchName": "Vaisseau laboratoire",
+        "fiddleAnimations": null,
+        "talkAnimations": null,
+        "sounds": {
+            "id": "death",
+            "name": "Death",
+            "sound": "tvedth00",
+            "text": ""
+        }
+    },
+    {
+        "id": "Valkyrie",
+        "name": "Valkyrie",
+        "frenchName": "Valkyrie",
+        "fiddleAnimations": null,
+        "talkAnimations": null,
+        "sounds": {
+            "id": "death",
+            "name": "Death",
+            "sound": "tvkdth00",
+            "text": ""
+        }
+    },
+    {
+        "id": "Battlecruiser",
+        "name": "Battlecruiser",
+        "frenchName": "Cuirass\u00e9",
+        "fiddleAnimations": null,
+        "talkAnimations": null,
+        "sounds": {
+            "id": "death",
+            "name": "Death",
+            "sound": "tbadth00",
+            "text": ""
+        }
+    },
+    {
+        "id": "RaynorMarine",
+        "name": "Jim Raynor (Marine)",
+        "frenchName": "Jim Raynor (Marine)",
+        "fiddleAnimations": null,
+        "talkAnimations": null,
+        "sounds": {
+            "id": "death2",
+            "name": "Death 2",
+            "sound": "uradth01",
+            "text": ""
+        }
+    },
+    {
+        "id": "RaynorVulture",
+        "name": "Jim Raynor (Vulture)",
+        "frenchName": "Jim Raynor (Vautour)",
+        "fiddleAnimations": null,
+        "talkAnimations": null,
+        "sounds": {
+            "id": "death",
+            "name": "Death",
+            "sound": "urvdth00",
+            "text": ""
+        }
+    },
+    {
+        "id": "Kerrigan",
+        "name": "Sarah Kerrigan",
+        "frenchName": "Sarah Kerrigan",
+        "fiddleAnimations": null,
+        "talkAnimations": null,
+        "sounds": {
+            "id": "death",
+            "name": "Death",
+            "sound": "ukedth00",
+            "text": ""
+        }
+    },
+    {
+        "id": "Duran",
+        "name": "Samir Duran",
+        "frenchName": "Samir Duran",
+        "fiddleAnimations": null,
+        "talkAnimations": null,
+        "sounds": {
+            "id": "death",
+            "name": "Death",
+            "sound": "tdndth00",
+            "text": ""
+        }
+    },
+    {
+        "id": "DukeBattlecruiser",
+        "name": "Edmund Duke (Battlecruiser)",
+        "frenchName": "Edmund Duke (Cuirass\u00e9)",
+        "fiddleAnimations": null,
+        "talkAnimations": null,
+        "sounds": {
+            "id": "death",
+            "name": "Death",
+            "sound": "ududth00",
+            "text": ""
+        }
+    },
+    {
+        "id": "DukeTank",
+        "name": "Edmund Duke (Tank)",
+        "frenchName": "Edmund Duke (Char)",
+        "fiddleAnimations": null,
+        "talkAnimations": null,
+        "sounds": {
+            "id": "death",
+            "name": "Death",
+            "sound": "udtdth00",
+            "text": ""
+        }
+    }
+]

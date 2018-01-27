@@ -2,17 +2,15 @@
     {
         "id": "PAdvisor",
         "name": "Advisor",
-        "frenchName": "Conseillé",
+        "frenchName": "Conseill\u00e9",
         "fiddleAnimations": null,
         "talkAnimations": null,
-        "sounds": [
-            {
-                "id": "update1",
-                "name": "Update 1",
-                "sound": "padupd00",
-                "text": "We are under attack!"
-            }
-        ]
+        "sounds": {
+            "id": "error4",
+            "name": "Error 4",
+            "sound": "paderr06",
+            "text": "No enough energy."
+        }
     },
     {
         "id": "Probe",
@@ -20,13 +18,271 @@
         "frenchName": "Sonde (Ouvrier)",
         "fiddleAnimations": null,
         "talkAnimations": null,
-        "sounds": [
-            {
-                "id": "ready",
-                "name": "Ready",
-                "sound": "pprrdy00",
-                "text": "(Robotic)"
-            }
-        ]
+        "sounds": {
+            "id": "death",
+            "name": "Death",
+            "sound": "pprdth00",
+            "text": "(Robotic)"
+        }
+    },
+    {
+        "id": "Zealot",
+        "name": "Zealot",
+        "frenchName": "Disciple",
+        "fiddleAnimations": "[\"Fid00\",\"Fid01\",\"Fid02\"]",
+        "talkAnimations": "[\"Tlk00\",\"Tlk01\"]",
+        "sounds": {
+            "id": "death",
+            "name": "Death",
+            "sound": "pzedth00",
+            "text": ""
+        }
+    },
+    {
+        "id": "Dragoon",
+        "name": "Dragoon",
+        "frenchName": "Dragon",
+        "fiddleAnimations": null,
+        "talkAnimations": null,
+        "sounds": {
+            "id": "death",
+            "name": "Death",
+            "sound": "pdrdth00",
+            "text": ""
+        }
+    },
+    {
+        "id": "Templar",
+        "name": "High Templar",
+        "frenchName": "Templier",
+        "fiddleAnimations": null,
+        "talkAnimations": null,
+        "sounds": {
+            "id": "death",
+            "name": "Death",
+            "sound": "ptedth00",
+            "text": ""
+        }
+    },
+    {
+        "id": "Archon",
+        "name": "Archon",
+        "frenchName": "Archonte",
+        "fiddleAnimations": null,
+        "talkAnimations": null,
+        "sounds": {
+            "id": "death",
+            "name": "Death",
+            "sound": "pardth00",
+            "text": ""
+        }
+    },
+    {
+        "id": "DarkTemplar",
+        "name": "Dark Templar",
+        "frenchName": "Templier Noir",
+        "fiddleAnimations": "[\"Fid00\",\"Fid01\",\"Fid02\"]",
+        "talkAnimations": null,
+        "sounds": {
+            "id": "death",
+            "name": "Death",
+            "sound": "pdtdth00",
+            "text": ""
+        }
+    },
+    {
+        "id": "DarkArchon",
+        "name": "Dark Archon",
+        "frenchName": "Archonte Noir",
+        "fiddleAnimations": null,
+        "talkAnimations": null,
+        "sounds": {
+            "id": "mindControl",
+            "name": "Mind Control",
+            "sound": "mind",
+            "text": ""
+        }
+    },
+    {
+        "id": "Shuttle",
+        "name": "Shuttle (Transport)",
+        "frenchName": "Transport",
+        "fiddleAnimations": null,
+        "talkAnimations": null,
+        "sounds": {
+            "id": "death",
+            "name": "Death",
+            "sound": "pshdth00",
+            "text": ""
+        }
+    },
+    {
+        "id": "Reaver",
+        "name": "Reaver",
+        "frenchName": "Destructeur",
+        "fiddleAnimations": null,
+        "talkAnimations": null,
+        "sounds": {
+            "id": "death",
+            "name": "Death",
+            "sound": "ptrdth00",
+            "text": "(Robotic)"
+        }
+    },
+    {
+        "id": "Observer",
+        "name": "Observer",
+        "frenchName": "",
+        "fiddleAnimations": null,
+        "talkAnimations": null,
+        "sounds": {
+            "id": "death2",
+            "name": "Death 2",
+            "sound": "pwidth01",
+            "text": "(Robotic)"
+        }
+    },
+    {
+        "id": "Scout",
+        "name": "Scout",
+        "frenchName": "Scout",
+        "fiddleAnimations": null,
+        "talkAnimations": "[\"Tlk00\",\"Tlk01\"]",
+        "sounds": {
+            "id": "death",
+            "name": "Death 1",
+            "sound": "pscdth00",
+            "text": ""
+        }
+    },
+    {
+        "id": "Corsair",
+        "name": "Corsair",
+        "frenchName": "Corsaire",
+        "fiddleAnimations": null,
+        "talkAnimations": null,
+        "sounds": {
+            "id": "web",
+            "name": "Disruption Web",
+            "sound": "pcorweb1",
+            "text": ""
+        }
+    },
+    {
+        "id": "Arbiter",
+        "name": "Arbiter",
+        "frenchName": "Arbitre",
+        "fiddleAnimations": null,
+        "talkAnimations": null,
+        "sounds": {
+            "id": "death",
+            "name": "Death",
+            "sound": "pabdth00",
+            "text": ""
+        }
+    },
+    {
+        "id": "Carrier",
+        "name": "Carrier",
+        "frenchName": "Porte-nefs",
+        "fiddleAnimations": null,
+        "talkAnimations": null,
+        "sounds": {
+            "id": "death2",
+            "name": "Death 2",
+            "sound": "pcadth01",
+            "text": ""
+        }
+    },
+    {
+        "id": "Interceptor",
+        "name": "Interceptor (Carrier weapon)",
+        "frenchName": "Intercepteur",
+        "fiddleAnimations": null,
+        "talkAnimations": null,
+        "sounds": {
+            "id": "launch",
+            "name": "Launch",
+            "sound": "pinlau00",
+            "text": ""
+        }
+    },
+    {
+        "id": "FenixZealot",
+        "name": "Fenix (Zealot)",
+        "frenchName": "Fenix (Disciple)",
+        "fiddleAnimations": null,
+        "talkAnimations": null,
+        "sounds": {
+            "id": "death",
+            "name": "Death",
+            "sound": "ufedth00",
+            "text": ""
+        }
+    },
+    {
+        "id": "FenixDragoon",
+        "name": "Fenix (Dragoon)",
+        "frenchName": "Fenix (Dragon)",
+        "fiddleAnimations": null,
+        "talkAnimations": null,
+        "sounds": {
+            "id": "annoyance4",
+            "name": "Annoyance 4",
+            "sound": "ufdpss03",
+            "text": "For our strength is eternal!"
+        }
+    },
+    {
+        "id": "Tassadar",
+        "name": "Tassadar",
+        "frenchName": "Tassadar",
+        "fiddleAnimations": "[\"Fid00\",\"Fid01\",\"Fid02\"]",
+        "talkAnimations": "[\"Tlk00\",\"Tlk01\"]",
+        "sounds": {
+            "id": "death",
+            "name": "Death",
+            "sound": "utadth00",
+            "text": ""
+        }
+    },
+    {
+        "id": "Gantrithor",
+        "name": "Gantrithor (Tas' Carrier)",
+        "frenchName": "Gantrithor",
+        "fiddleAnimations": "[\"Fid00\",\"Fid01\",\"Fid02\"]",
+        "talkAnimations": "[\"Tlk00\",\"Tlk01\"]",
+        "sounds": {
+            "id": "annoyance4",
+            "name": "Annoyance 4",
+            "sound": "utcpss03",
+            "text": "So do not try my patience!"
+        }
+    },
+    {
+        "id": "Zeratul",
+        "name": "Zeratul",
+        "frenchName": "Zeratul",
+        "fiddleAnimations": null,
+        "talkAnimations": null,
+        "sounds": {
+            "id": "death",
+            "name": "Death",
+            "sound": "uzedth00",
+            "text": ""
+        }
+    },
+    {
+        "id": "Artanis",
+        "name": "Artanis",
+        "frenchName": "Artanis",
+        "fiddleAnimations": null,
+        "talkAnimations": null,
+        "sounds": {
+            "id": "annoyance6",
+            "name": "Annoyance 6",
+            "sound": "patpss05",
+            "text": "I know it's not 3D!"
+        }
     }
 ]
