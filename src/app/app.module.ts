@@ -24,8 +24,4 @@ import { UnitService } from "./shared/unit.service";
         UnitService
     ]
 })
-
-/*
-Pass your application module to the bootstrapModule function located in main.ts to start your app
-*/
 export class AppModule { }

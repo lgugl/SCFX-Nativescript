@@ -13,7 +13,7 @@ export class UnitService {
         if (fs.File.exists(file)) {
             this.units = require(file);// '~/assets/...'
         } else {
-            console.warn("Faction data file doesn't exist.");
+            console.warn("Faction data file " + faction + ".json doesn't exist.");
         }
         return this;
     }
@@ -22,7 +22,12 @@ export class UnitService {
         return this.units;
     }
 
-    getUnit(id): Unit {
-        return this.units[id] || null;
+    getUnit(id: String): Unit {
+        this.units.forEach(unit => {
+            if (unit.id == id) {
+                return unit;
+            }
+        });
+        return null;
     }
 }

@@ -1,17 +1,17 @@
 import { Component, OnInit } from "@angular/core";
 import { ActivatedRoute } from "@angular/router";
 
-import { UnitService } from "./../../shared/unit.service";
 import { Unit } from "./../../shared/unit";
+import { UnitService } from "./../../shared/unit.service";
 
 @Component({
-  selector: "faction",
-  moduleId: module.id,
-  templateUrl: "./faction.html"
+    selector: "unit",
+    moduleId: module.id,
+    templateUrl: "./unit.html"
 })
-export class FactionComponent implements OnInit {
+export class UnitComponent implements OnInit {
     id: String;
-    units: Unit[] = [];// => Array<Unit> = []
+    unit: Unit;
 
     constructor(
         private route: ActivatedRoute,
@@ -20,6 +20,7 @@ export class FactionComponent implements OnInit {
 
     ngOnInit() {
         this.id = this.route.snapshot.params['id'];
-        this.units = this.unitService.loadFaction(this.id).getUnits();
+        var faction: String = this.route.snapshot.params['faction'];
+        this.unit = this.unitService.loadFaction(faction).getUnit(this.id);
     }
 }
