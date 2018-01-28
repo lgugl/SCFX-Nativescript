@@ -2,7 +2,10 @@
     <Label [text]="faction + ' | ' + unit.id" textWrap="true"></Label>
     <ListView [items]="sounds">
         <ng-template let-item="item">
-            <Label [text]="item.name"></Label>
+            <StackLayout>
+                <Label [text]="item.name"></Label>
+                <Label [text]="item.text" class="dialog" textWrap="true"></Label>
+            </StackLayout>
         </ng-template>
     </ListView>
 </StackLayout>

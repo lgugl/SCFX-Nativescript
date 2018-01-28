@@ -1,0 +1,14 @@
+Page {
+    background-size: 50% 33%;
+    background-image: url("res://app_background");
+    font-size: 24;
+}
+
+.button {
+    background-color: papayawhip;
+}
+
+.dialog {
+    color: #b4b4b4;
+    font-size: 12;
+}
