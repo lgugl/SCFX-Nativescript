@@ -5,12 +5,56 @@
         "frenchName": "Conseill\u00e9",
         "fiddleAnimations": null,
         "talkAnimations": null,
-        "sounds": {
-            "id": "error4",
-            "name": "Error 4",
-            "sound": "zaderr06",
-            "text": "Not enough energy."
-        }
+        "sounds": [
+            {
+                "id": "update1",
+                "name": "Update 1",
+                "sound": "zadupd00",
+                "text": "The hive cluster is under attack!"
+            },
+            {
+                "id": "update2",
+                "name": "Update 2",
+                "sound": "zadupd01",
+                "text": "Our forces are under attack."
+            },
+            {
+                "id": "update3",
+                "name": "Update 3",
+                "sound": "zadupd02",
+                "text": "Evolution complete."
+            },
+            {
+                "id": "update4",
+                "name": "Update 4",
+                "sound": "zadupd04",
+                "text": "Nuclear launch detected."
+            },
+            {
+                "id": "error1",
+                "name": "Error 1",
+                "sound": "zaderr00",
+                "text": "We require more minerals."
+            },
+            {
+                "id": "error2",
+                "name": "Error 2",
+                "sound": "zaderr01",
+                "text": "We require more vespene gas."
+            },
+            {
+                "id": "error3",
+                "name": "Error 3",
+                "sound": "zaderr02",
+                "text": "Spawn more overlords."
+            },
+            {
+                "id": "error4",
+                "name": "Error 4",
+                "sound": "zaderr06",
+                "text": "Not enough energy."
+            }
+        ]
     },
     {
         "id": "Larva",
@@ -18,12 +62,26 @@
         "frenchName": "Larve",
         "fiddleAnimations": "[\"Fid00\"]",
         "talkAnimations": "[\"Tlk00\"]",
-        "sounds": {
-            "id": "death",
-            "name": "Death",
-            "sound": "zladth00",
-            "text": ""
-        }
+        "sounds": [
+            {
+                "id": "acknowledgement",
+                "name": "Acknowledgement",
+                "sound": "zlawht00",
+                "text": ""
+            },
+            {
+                "id": "annoyance",
+                "name": "Annoyance",
+                "sound": "zlapss00",
+                "text": ""
+            },
+            {
+                "id": "death",
+                "name": "Death",
+                "sound": "zladth00",
+                "text": ""
+            }
+        ]
     },
     {
         "id": "Egg",
@@ -31,12 +89,38 @@
         "frenchName": "Oeuf",
         "fiddleAnimations": null,
         "talkAnimations": null,
-        "sounds": {
-            "id": "death",
-            "name": "Death",
-            "sound": "zegdth00",
-            "text": ""
-        }
+        "sounds": [
+            {
+                "id": "ready",
+                "name": "Ready",
+                "sound": "zegrdy00",
+                "text": ""
+            },
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "zegwht00",
+                "text": ""
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "zegwht01",
+                "text": ""
+            },
+            {
+                "id": "annoyance",
+                "name": "Annoyance",
+                "sound": "zegpss00",
+                "text": ""
+            },
+            {
+                "id": "death",
+                "name": "Death",
+                "sound": "zegdth00",
+                "text": ""
+            }
+        ]
     },
     {
         "id": "Overlord",
@@ -44,12 +128,92 @@
         "frenchName": "Overlord (Transport)",
         "fiddleAnimations": null,
         "talkAnimations": null,
-        "sounds": {
-            "id": "death",
-            "name": "Death",
-            "sound": "zovdth00",
-            "text": ""
-        }
+        "sounds": [
+            {
+                "id": "ready",
+                "name": "Ready",
+                "sound": "zovrdy00",
+                "text": ""
+            },
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "zovwht00",
+                "text": ""
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "zovwht01",
+                "text": ""
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "zovwht02",
+                "text": ""
+            },
+            {
+                "id": "acknowledgement4",
+                "name": "Acknowledgement 4",
+                "sound": "zovwht03",
+                "text": ""
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "zovyes00",
+                "text": ""
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "zovyes01",
+                "text": ""
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "zovyes02",
+                "text": ""
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "zovyes03",
+                "text": ""
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "zovpss00",
+                "text": ""
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "zovpss01",
+                "text": ""
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "zovpss02",
+                "text": ""
+            },
+            {
+                "id": "annoyance4",
+                "name": "Annoyance 4",
+                "sound": "zovpss03",
+                "text": ""
+            },
+            {
+                "id": "death",
+                "name": "Death",
+                "sound": "zovdth00",
+                "text": ""
+            }
+        ]
     },
     {
         "id": "Drone",
@@ -57,12 +221,110 @@
         "frenchName": "Drone (Ouvrier)",
         "fiddleAnimations": null,
         "talkAnimations": null,
-        "sounds": {
-            "id": "death",
-            "name": "Death",
-            "sound": "zdrdth00",
-            "text": ""
-        }
+        "sounds": [
+            {
+                "id": "ready",
+                "name": "Ready",
+                "sound": "zdrrdy00",
+                "text": ""
+            },
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "zdrwht00",
+                "text": ""
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "zdrwht01",
+                "text": ""
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "zdrwht02",
+                "text": ""
+            },
+            {
+                "id": "acknowledgement4",
+                "name": "Acknowledgement 4",
+                "sound": "zdrwht03",
+                "text": ""
+            },
+            {
+                "id": "acknowledgement5",
+                "name": "Acknowledgement 5",
+                "sound": "zdrwht04",
+                "text": ""
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "zdryes00",
+                "text": ""
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "zdryes01",
+                "text": ""
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "zdryes02",
+                "text": ""
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "zdryes03",
+                "text": ""
+            },
+            {
+                "id": "affirmation5",
+                "name": "Affirmation 5",
+                "sound": "zdryes04",
+                "text": ""
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "zdrpss00",
+                "text": ""
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "zdrpss01",
+                "text": ""
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "zdrpss02",
+                "text": ""
+            },
+            {
+                "id": "mining",
+                "name": "Mining Action (Clicking)",
+                "sound": "zdrmin00",
+                "text": ""
+            },
+            {
+                "id": "error",
+                "name": "Error",
+                "sound": "zdrerr00",
+                "text": ""
+            },
+            {
+                "id": "death",
+                "name": "Death",
+                "sound": "zdrdth00",
+                "text": ""
+            }
+        ]
     },
     {
         "id": "Zergling",
@@ -70,12 +332,86 @@
         "frenchName": "Zergling",
         "fiddleAnimations": null,
         "talkAnimations": null,
-        "sounds": {
-            "id": "death",
-            "name": "Death",
-            "sound": "zzedth00",
-            "text": ""
-        }
+        "sounds": [
+            {
+                "id": "ready",
+                "name": "Ready",
+                "sound": "zzerdy00",
+                "text": ""
+            },
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "zzewht00",
+                "text": ""
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "zzewht01",
+                "text": ""
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "zzewht02",
+                "text": ""
+            },
+            {
+                "id": "acknowledgement4",
+                "name": "Acknowledgement 4",
+                "sound": "zzewht03",
+                "text": ""
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "zzeyes00",
+                "text": ""
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "zzeyes01",
+                "text": ""
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "zzeyes02",
+                "text": ""
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "zzeyes03",
+                "text": ""
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "zzepss00",
+                "text": ""
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "zzepss01",
+                "text": ""
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "zzepss02",
+                "text": ""
+            },
+            {
+                "id": "death",
+                "name": "Death",
+                "sound": "zzedth00",
+                "text": ""
+            }
+        ]
     },
     {
         "id": "Hydralisk",
@@ -83,12 +419,80 @@
         "frenchName": "Hydralisk",
         "fiddleAnimations": null,
         "talkAnimations": null,
-        "sounds": {
-            "id": "death",
-            "name": "Death",
-            "sound": "zhydth00",
-            "text": ""
-        }
+        "sounds": [
+            {
+                "id": "ready",
+                "name": "Ready",
+                "sound": "zhyrdy00",
+                "text": ""
+            },
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "zhywht00",
+                "text": ""
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "zhywht01",
+                "text": ""
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "zhywht02",
+                "text": ""
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "zhyyes00",
+                "text": ""
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "zhyyes01",
+                "text": ""
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "zhyyes02",
+                "text": ""
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "zhyyes03",
+                "text": ""
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "zhypss00",
+                "text": ""
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "zhypss01",
+                "text": ""
+            },
+            {
+                "id": "attack",
+                "name": "Attack (Spine Attack)",
+                "sound": "spifir00",
+                "text": ""
+            },
+            {
+                "id": "death",
+                "name": "Death",
+                "sound": "zhydth00",
+                "text": ""
+            }
+        ]
     },
     {
         "id": "Lurker",
@@ -96,12 +500,98 @@
         "frenchName": "Lurker",
         "fiddleAnimations": null,
         "talkAnimations": null,
-        "sounds": {
-            "id": "death",
-            "name": "Death",
-            "sound": "zludth00",
-            "text": ""
-        }
+        "sounds": [
+            {
+                "id": "ready",
+                "name": "Ready",
+                "sound": "zlurdy00",
+                "text": ""
+            },
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "zluwht00",
+                "text": ""
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "zluwht01",
+                "text": ""
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "zluwht02",
+                "text": ""
+            },
+            {
+                "id": "acknowledgement4",
+                "name": "Acknowledgement 4",
+                "sound": "zluwht03",
+                "text": ""
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "zluyes00",
+                "text": ""
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "zluyes01",
+                "text": ""
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "zluyes02",
+                "text": ""
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "zluyes03",
+                "text": ""
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "zlupss00",
+                "text": ""
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "zlupss01",
+                "text": ""
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "zlupss02",
+                "text": ""
+            },
+            {
+                "id": "annoyance4",
+                "name": "Annoyance 4",
+                "sound": "zlupss03",
+                "text": ""
+            },
+            {
+                "id": "burrow",
+                "name": "Burrow (Digging)",
+                "sound": "zluburrw",
+                "text": ""
+            },
+            {
+                "id": "death",
+                "name": "Death",
+                "sound": "zludth00",
+                "text": ""
+            }
+        ]
     },
     {
         "id": "Scourge",
@@ -109,12 +599,68 @@
         "frenchName": "Masse",
         "fiddleAnimations": null,
         "talkAnimations": "[\"Tlk00\"]",
-        "sounds": {
-            "id": "death",
-            "name": "Death",
-            "sound": "zavdth00",
-            "text": ""
-        }
+        "sounds": [
+            {
+                "id": "ready",
+                "name": "Ready",
+                "sound": "zavrdy00",
+                "text": ""
+            },
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "zavwht00",
+                "text": ""
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "zavwht01",
+                "text": ""
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "zavyes00",
+                "text": ""
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "zavyes01",
+                "text": ""
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "zavpss00",
+                "text": ""
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "zavpss01",
+                "text": ""
+            },
+            {
+                "id": "attack",
+                "name": "Attack",
+                "sound": "zavatt00",
+                "text": ""
+            },
+            {
+                "id": "hit",
+                "name": "Hit",
+                "sound": "zavhit00",
+                "text": ""
+            },
+            {
+                "id": "death",
+                "name": "Death",
+                "sound": "zavdth00",
+                "text": ""
+            }
+        ]
     },
     {
         "id": "Mutalisk",
@@ -122,12 +668,92 @@
         "frenchName": "Mutalisk",
         "fiddleAnimations": null,
         "talkAnimations": null,
-        "sounds": {
-            "id": "death",
-            "name": "Death",
-            "sound": "zmudth00",
-            "text": ""
-        }
+        "sounds": [
+            {
+                "id": "ready",
+                "name": "Ready",
+                "sound": "zmurdy00",
+                "text": ""
+            },
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "zmuwht00",
+                "text": ""
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "zmuwht01",
+                "text": ""
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "zmuwht02",
+                "text": ""
+            },
+            {
+                "id": "acknowledgement4",
+                "name": "Acknowledgement 4",
+                "sound": "zmuwht03",
+                "text": ""
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "zmuyes00",
+                "text": ""
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "zmuyes01",
+                "text": ""
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "zmuyes02",
+                "text": ""
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "zmuyes03",
+                "text": ""
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "zmupss00",
+                "text": ""
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "zmupss01",
+                "text": ""
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "zmupss02",
+                "text": ""
+            },
+            {
+                "id": "annoyance4",
+                "name": "Annoyance 4",
+                "sound": "zmupss03",
+                "text": ""
+            },
+            {
+                "id": "death",
+                "name": "Death",
+                "sound": "zmudth00",
+                "text": ""
+            }
+        ]
     },
     {
         "id": "Guardian",
@@ -135,12 +761,92 @@
         "frenchName": "Guardien",
         "fiddleAnimations": null,
         "talkAnimations": null,
-        "sounds": {
-            "id": "death",
-            "name": "Death",
-            "sound": "zgudth00",
-            "text": ""
-        }
+        "sounds": [
+            {
+                "id": "ready",
+                "name": "Ready",
+                "sound": "zgurdy00",
+                "text": ""
+            },
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "zguwht00",
+                "text": ""
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "zguwht01",
+                "text": ""
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "zguwht02",
+                "text": ""
+            },
+            {
+                "id": "acknowledgement4",
+                "name": "Acknowledgement 4",
+                "sound": "zguwht03",
+                "text": ""
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "zguyes00",
+                "text": ""
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "zguyes01",
+                "text": ""
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "zguyes02",
+                "text": ""
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "zguyes03",
+                "text": ""
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "zgupss00",
+                "text": ""
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "zgupss01",
+                "text": ""
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "zgupss02",
+                "text": ""
+            },
+            {
+                "id": "annoyance4",
+                "name": "Annoyance 4",
+                "sound": "zgupss03",
+                "text": ""
+            },
+            {
+                "id": "death",
+                "name": "Death",
+                "sound": "zgudth00",
+                "text": ""
+            }
+        ]
     },
     {
         "id": "Devourer",
@@ -148,12 +854,92 @@
         "frenchName": "D\u00e9voreur",
         "fiddleAnimations": null,
         "talkAnimations": null,
-        "sounds": {
-            "id": "death",
-            "name": "Death",
-            "sound": "zdvdth00",
-            "text": ""
-        }
+        "sounds": [
+            {
+                "id": "ready",
+                "name": "Ready",
+                "sound": "zdvrdy00",
+                "text": ""
+            },
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "zdvwht00",
+                "text": ""
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "zdvwht01",
+                "text": ""
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "zdvwht02",
+                "text": ""
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "zdvyes00",
+                "text": ""
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "zdvyes01",
+                "text": ""
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "zdvyes02",
+                "text": ""
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "zdvyes03",
+                "text": ""
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "zdvpss00",
+                "text": ""
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "zdvpss01",
+                "text": ""
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "zdvpss02",
+                "text": ""
+            },
+            {
+                "id": "attack",
+                "name": "Attack Windup",
+                "sound": "firesuck",
+                "text": ""
+            },
+            {
+                "id": "hit",
+                "name": "Goop Hit",
+                "sound": "goophit",
+                "text": ""
+            },
+            {
+                "id": "death",
+                "name": "Death",
+                "sound": "zdvdth00",
+                "text": ""
+            }
+        ]
     },
     {
         "id": "Queen",
@@ -161,12 +947,122 @@
         "frenchName": "Reine",
         "fiddleAnimations": null,
         "talkAnimations": "[\"Tlk00\"]",
-        "sounds": {
-            "id": "death3",
-            "name": "Death 3",
-            "sound": "zqudth02",
-            "text": ""
-        }
+        "sounds": [
+            {
+                "id": "ready",
+                "name": "Ready",
+                "sound": "zqurdy00",
+                "text": ""
+            },
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "zquwht00",
+                "text": ""
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "zquwht01",
+                "text": ""
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "zquwht02",
+                "text": ""
+            },
+            {
+                "id": "acknowledgement4",
+                "name": "Acknowledgement 4",
+                "sound": "zquwht03",
+                "text": ""
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "zquyes00",
+                "text": ""
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "zquyes01",
+                "text": ""
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "zquyes02",
+                "text": ""
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "zquyes03",
+                "text": ""
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "zqupss00",
+                "text": ""
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "zqupss01",
+                "text": ""
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "zqupss02",
+                "text": ""
+            },
+            {
+                "id": "annoyance4",
+                "name": "Annoyance 4",
+                "sound": "zqupss03",
+                "text": ""
+            },
+            {
+                "id": "ensnare",
+                "name": "Ensnare",
+                "sound": "zquens00",
+                "text": ""
+            },
+            {
+                "id": "parasite",
+                "name": "Parasite",
+                "sound": "zqutag01",
+                "text": ""
+            },
+            {
+                "id": "broodling",
+                "name": "Spawn Broodling?",
+                "sound": "zqutag00",
+                "text": ""
+            },
+            {
+                "id": "death1",
+                "name": "Death 1",
+                "sound": "zqudth00",
+                "text": ""
+            },
+            {
+                "id": "death2",
+                "name": "Death 2",
+                "sound": "zqudth01",
+                "text": ""
+            },
+            {
+                "id": "death3",
+                "name": "Death 3",
+                "sound": "zqudth02",
+                "text": ""
+            }
+        ]
     },
     {
         "id": "Broodling",
@@ -174,12 +1070,98 @@
         "frenchName": "Broodling",
         "fiddleAnimations": null,
         "talkAnimations": null,
-        "sounds": {
-            "id": "death",
-            "name": "Death",
-            "sound": "zbrdth00",
-            "text": ""
-        }
+        "sounds": [
+            {
+                "id": "ready",
+                "name": "Ready",
+                "sound": "zbrrdy00",
+                "text": ""
+            },
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "zbrwht00",
+                "text": ""
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "zbrwht01",
+                "text": ""
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "zbrwht02",
+                "text": ""
+            },
+            {
+                "id": "acknowledgement4",
+                "name": "Acknowledgement 4",
+                "sound": "zbrwht03",
+                "text": ""
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "zbryes00",
+                "text": ""
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "zbryes01",
+                "text": ""
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "zbryes02",
+                "text": ""
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "zbryes03",
+                "text": ""
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "zbrpss00",
+                "text": ""
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "zbrpss01",
+                "text": ""
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "zbrpss02",
+                "text": ""
+            },
+            {
+                "id": "annoyance4",
+                "name": "Annoyance 4",
+                "sound": "zbrpss03",
+                "text": ""
+            },
+            {
+                "id": "attack",
+                "name": "Attack",
+                "sound": "zbratt00",
+                "text": ""
+            },
+            {
+                "id": "death",
+                "name": "Death",
+                "sound": "zbrdth00",
+                "text": ""
+            }
+        ]
     },
     {
         "id": "Ultralisk",
@@ -187,12 +1169,122 @@
         "frenchName": "Ultralisk",
         "fiddleAnimations": "[\"Fid00\",\"Fid01\",\"Fid02\"]",
         "talkAnimations": null,
-        "sounds": {
-            "id": "death",
-            "name": "Death",
-            "sound": "zuldth00",
-            "text": ""
-        }
+        "sounds": [
+            {
+                "id": "ready",
+                "name": "Ready",
+                "sound": "zulrdy00",
+                "text": ""
+            },
+            {
+                "id": "roar",
+                "name": "Roar?",
+                "sound": "zulror00",
+                "text": ""
+            },
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "zulwht00",
+                "text": ""
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "zulwht01",
+                "text": ""
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "zulwht02",
+                "text": ""
+            },
+            {
+                "id": "acknowledgement4",
+                "name": "Acknowledgement 4",
+                "sound": "zulwht03",
+                "text": ""
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "zulyes00",
+                "text": ""
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "zulyes01",
+                "text": ""
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "zulyes02",
+                "text": ""
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "zulyes03",
+                "text": ""
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "zulpss00",
+                "text": ""
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "zulpss01",
+                "text": ""
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "zulpss02",
+                "text": ""
+            },
+            {
+                "id": "attack1",
+                "name": "Attack 1",
+                "sound": "zulatt00",
+                "text": ""
+            },
+            {
+                "id": "attack2",
+                "name": "Attack 2",
+                "sound": "zulatt01",
+                "text": ""
+            },
+            {
+                "id": "attack3",
+                "name": "Attack 3",
+                "sound": "zulatt02",
+                "text": ""
+            },
+            {
+                "id": "hit1",
+                "name": "Hit 1",
+                "sound": "zulhit00",
+                "text": ""
+            },
+            {
+                "id": "hit2",
+                "name": "Hit 2",
+                "sound": "zulhit01",
+                "text": ""
+            },
+            {
+                "id": "death",
+                "name": "Death",
+                "sound": "zuldth00",
+                "text": ""
+            }
+        ]
     },
     {
         "id": "Defiler",
@@ -200,12 +1292,122 @@
         "frenchName": "Saboteur",
         "fiddleAnimations": null,
         "talkAnimations": "[\"Tlk00\",\"Tlk01\"]",
-        "sounds": {
-            "id": "death",
-            "name": "Death",
-            "sound": "zdedth00",
-            "text": ""
-        }
+        "sounds": [
+            {
+                "id": "ready",
+                "name": "Ready",
+                "sound": "zderdy00",
+                "text": ""
+            },
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "zdewht00",
+                "text": ""
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "zdewht01",
+                "text": ""
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "zdewht02",
+                "text": ""
+            },
+            {
+                "id": "acknowledgement4",
+                "name": "Acknowledgement 4",
+                "sound": "zdewht03",
+                "text": ""
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "zdeyes00",
+                "text": ""
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "zdeyes01",
+                "text": ""
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "zdeyes02",
+                "text": ""
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "zdeyes03",
+                "text": ""
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "zdepss00",
+                "text": ""
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "zdepss01",
+                "text": ""
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "zdepss02",
+                "text": ""
+            },
+            {
+                "id": "annoyance4",
+                "name": "Annoyance 4",
+                "sound": "zdepss03",
+                "text": ""
+            },
+            {
+                "id": "plague1",
+                "name": "Plague 1",
+                "sound": "zdeblo00",
+                "text": ""
+            },
+            {
+                "id": "plague2",
+                "name": "Plague 2",
+                "sound": "zdeblo01",
+                "text": ""
+            },
+            {
+                "id": "consume",
+                "name": "Consume",
+                "sound": "zdecon00",
+                "text": ""
+            },
+            {
+                "id": "swarm1",
+                "name": "Dark Swarm 1",
+                "sound": "zquswm00",
+                "text": ""
+            },
+            {
+                "id": "swarm2",
+                "name": "Dark Swarm 2",
+                "sound": "zquswm01",
+                "text": ""
+            },
+            {
+                "id": "death",
+                "name": "Death",
+                "sound": "zdedth00",
+                "text": ""
+            }
+        ]
     },
     {
         "id": "InfestedTerran",
@@ -213,12 +1415,86 @@
         "frenchName": "Terran infest\u00e9",
         "fiddleAnimations": null,
         "talkAnimations": null,
-        "sounds": {
-            "id": "annoyance4",
-            "name": "Annoyance 4",
-            "sound": "zbgpss03",
-            "text": "I am Zerg!"
-        }
+        "sounds": [
+            {
+                "id": "ready",
+                "name": "Ready",
+                "sound": "zbgrdy00",
+                "text": "Live for The Swarm!"
+            },
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "zbgwht00",
+                "text": "Ready to kill."
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "zbgwht01",
+                "text": "Prepare to die."
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "zbgwht02",
+                "text": "Ready to serve."
+            },
+            {
+                "id": "acknowledgement4",
+                "name": "Acknowledgement 4",
+                "sound": "zbgwht03",
+                "text": "Sacrifice me."
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "zbgyes00",
+                "text": "Yes."
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "zbgyes01",
+                "text": "Immediately."
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "zbgyes02",
+                "text": "Gladly."
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "zbgyes03",
+                "text": "For the Overmind."
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "zbgpss00",
+                "text": "I am wretched."
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "zbgpss01",
+                "text": "But I am strong!"
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "zbgpss02",
+                "text": "I am the future."
+            },
+            {
+                "id": "annoyance4",
+                "name": "Annoyance 4",
+                "sound": "zbgpss03",
+                "text": "I am Zerg!"
+            }
+        ]
     },
     {
         "id": "InfestedDuran",
@@ -226,12 +1502,116 @@
         "frenchName": "Duran infest\u00e9",
         "fiddleAnimations": null,
         "talkAnimations": null,
-        "sounds": {
-            "id": "death",
-            "name": "Death",
-            "sound": "zdndth00",
-            "text": ""
-        }
+        "sounds": [
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "zdnwht00",
+                "text": "How can I be of service?"
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "zdnwht01",
+                "text": "What do you need?"
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "zdnwht02",
+                "text": "I'm here."
+            },
+            {
+                "id": "acknowledgement4",
+                "name": "Acknowledgement 4",
+                "sound": "zdnwht03",
+                "text": "Cerebrate!"
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "zdnyes00",
+                "text": "I'll take care of it."
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "zdnyes01",
+                "text": "You got it."
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "zdnyes02",
+                "text": "Right away."
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "zdnyes03",
+                "text": "Of course."
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "zdnpss00",
+                "text": "Is there a problem?"
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "zdnpss01",
+                "text": "I like your style, friend."
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "zdnpss02",
+                "text": "But I think you're getting a little too familiar."
+            },
+            {
+                "id": "annoyance4",
+                "name": "Annoyance 4",
+                "sound": "zdnpss03",
+                "text": "I don't believe we've met."
+            },
+            {
+                "id": "annoyance5",
+                "name": "Annoyance 5",
+                "sound": "zdnpss04",
+                "text": "I am Duran. Who are you?"
+            },
+            {
+                "id": "annoyance6",
+                "name": "Annoyance 6",
+                "sound": "zdnpss05",
+                "text": "I told you my name. It's Duran, Duran!"
+            },
+            {
+                "id": "annoyance7",
+                "name": "Annoyance 7",
+                "sound": "zdnpss06",
+                "text": "What's so funny?"
+            },
+            {
+                "id": "annoyance8",
+                "name": "Annoyance 8",
+                "sound": "zdnpss07",
+                "text": "Please, please, tell me now!"
+            },
+            {
+                "id": "annoyance9",
+                "name": "Annoyance 9",
+                "sound": "zdnpss08",
+                "text": "Is there something I should know?"
+            },
+            {
+                "id": "death",
+                "name": "Death",
+                "sound": "zdndth00",
+                "text": ""
+            }
+        ]
     },
     {
         "id": "InfestedKerrigan",
@@ -239,11 +1619,91 @@
         "frenchName": "Kerrigan infest\u00e9e",
         "fiddleAnimations": "[\"Fid00\",\"Fid01\",\"Fid02\"]",
         "talkAnimations": null,
-        "sounds": {
-            "id": "death",
-            "name": "Death",
-            "sound": "ukidth00",
-            "text": ""
-        }
+        "sounds": [
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "ukiwht00_original",
+                "text": "Yes, Cerebrate?"
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "ukiwht00",
+                "text": "Yes."
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "ukiwht01",
+                "text": ""
+            },
+            {
+                "id": "acknowledgement4",
+                "name": "Acknowledgement 4",
+                "sound": "ukiwht02",
+                "text": "What is it now?"
+            },
+            {
+                "id": "acknowledgement5",
+                "name": "Acknowledgement 5",
+                "sound": "ukiwht03",
+                "text": "I'm listening."
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "ukiyes00",
+                "text": "Hmm."
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "ukiyes01",
+                "text": "A bold move."
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "ukiyes02",
+                "text": "On my way."
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "ukiyes03",
+                "text": "Alright."
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "ukipss00",
+                "text": "You begin to annoy me, Cerebrate\u2026"
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "ukipss01",
+                "text": "\u2026but don't think that I need you."
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "ukipss02",
+                "text": "Should you become a nuisance\u2026"
+            },
+            {
+                "id": "annoyance4",
+                "name": "Annoyance 4",
+                "sound": "ukipss03",
+                "text": "\u2026I'll kill you myself."
+            },
+            {
+                "id": "death",
+                "name": "Death",
+                "sound": "ukidth00",
+                "text": ""
+            }
+        ]
     }
 ]

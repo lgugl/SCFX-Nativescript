@@ -5,12 +5,92 @@
         "frenchName": "Conseill\u00e9",
         "fiddleAnimations": null,
         "talkAnimations": null,
-        "sounds": {
-            "id": "error6",
-            "name": "Error 6",
-            "sound": "taderr06",
-            "text": "Not enough energy."
-        }
+        "sounds": [
+            {
+                "id": "update1",
+                "name": "Update 1",
+                "sound": "tadupd00",
+                "text": "Base is under attack."
+            },
+            {
+                "id": "update2",
+                "name": "Update 2",
+                "sound": "tadupd01",
+                "text": "Your forces are under attack."
+            },
+            {
+                "id": "update3",
+                "name": "Update 3",
+                "sound": "tadupd02",
+                "text": "Research complete."
+            },
+            {
+                "id": "update4",
+                "name": "Update 4",
+                "sound": "tadupd03",
+                "text": "Add-on complete."
+            },
+            {
+                "id": "update5",
+                "name": "Update 5",
+                "sound": "tadupd04",
+                "text": "Nuclear launch detected."
+            },
+            {
+                "id": "update6",
+                "name": "Update 6",
+                "sound": "tadupd05",
+                "text": "Abandoning auxiliary structure."
+            },
+            {
+                "id": "update7",
+                "name": "Update 7",
+                "sound": "tadupd06",
+                "text": "Upgrade complete."
+            },
+            {
+                "id": "update8",
+                "name": "Update 8",
+                "sound": "tadupd07",
+                "text": "Nuclear missle ready."
+            },
+            {
+                "id": "error1",
+                "name": "Error 1",
+                "sound": "taderr00",
+                "text": "Not enough minerals."
+            },
+            {
+                "id": "error2",
+                "name": "Error 2",
+                "sound": "taderr01",
+                "text": "Insufficient vespene gas."
+            },
+            {
+                "id": "error3",
+                "name": "Error 3",
+                "sound": "taderr02",
+                "text": "Additional supply depots required."
+            },
+            {
+                "id": "error4",
+                "name": "Error 4",
+                "sound": "taderr03",
+                "text": "Landing sequence interrupted."
+            },
+            {
+                "id": "error5",
+                "name": "Error 5",
+                "sound": "taderr04",
+                "text": "Unacceptable landing zone."
+            },
+            {
+                "id": "error6",
+                "name": "Error 6",
+                "sound": "taderr06",
+                "text": "Not enough energy."
+            }
+        ]
     },
     {
         "id": "Civilian",
@@ -18,12 +98,104 @@
         "frenchName": "Civil",
         "fiddleAnimations": "[\"Fid00\",\"Fid01\",\"Fid02\"]",
         "talkAnimations": "[]",
-        "sounds": {
-            "id": "death",
-            "name": "Death",
-            "sound": "tcvdth00",
-            "text": ""
-        }
+        "sounds": [
+            {
+                "id": "ready",
+                "name": "Ready",
+                "sound": "tcvrdy00",
+                "text": "Hey, how'd I get here?"
+            },
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "tcvwht00",
+                "text": "Hey there."
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "tcvwht01",
+                "text": "How y'all doin'?"
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "tcvwht02",
+                "text": "What's up?"
+            },
+            {
+                "id": "acknowledgement4",
+                "name": "Acknowledgement 4",
+                "sound": "tcvwht03",
+                "text": "Howdy."
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "tcvyes00",
+                "text": "I'm goin'."
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "tcvyes01",
+                "text": "No sweat."
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "tcvyes02",
+                "text": "Yep."
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "tcvyes03",
+                "text": "Alright."
+            },
+            {
+                "id": "affirmation5",
+                "name": "Affirmation 5",
+                "sound": "tcvyes04",
+                "text": "Alright."
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "tcvpss00",
+                "text": "I wanna be all I can be."
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "tcvpss01",
+                "text": "I tell you what, I think I'll join up."
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "tcvpss02",
+                "text": "I'm a little claustrophobic, though."
+            },
+            {
+                "id": "annoyance4",
+                "name": "Annoyance 4",
+                "sound": "tcvpss03",
+                "text": "Hope they don't put me in any tight spaces."
+            },
+            {
+                "id": "annoyance5",
+                "name": "Annoyance 5",
+                "sound": "tcvpss04",
+                "text": "Ahh, what the hell; I need that college money."
+            },
+            {
+                "id": "death",
+                "name": "Death",
+                "sound": "tcvdth00",
+                "text": ""
+            }
+        ]
     },
     {
         "id": "SCV",
@@ -31,12 +203,170 @@
         "frenchName": "VCS (Ouvrier)",
         "fiddleAnimations": null,
         "talkAnimations": null,
-        "sounds": {
-            "id": "death",
-            "name": "Death",
-            "sound": "tscdth00",
-            "text": ""
-        }
+        "sounds": [
+            {
+                "id": "ready",
+                "name": "Ready",
+                "sound": "tscrdy00",
+                "text": "SCV good to go, sir."
+            },
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "tscwht00",
+                "text": "Yes sir?"
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "tscwht01",
+                "text": "Orders, cap'n?"
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "tscwht02",
+                "text": "I read you."
+            },
+            {
+                "id": "acknowledgement4",
+                "name": "Acknowledgement 4",
+                "sound": "tscwht03",
+                "text": "Reportin' for duty."
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "tscyes00",
+                "text": "Affirmative."
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "tscyes01",
+                "text": "Roger that."
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "tscyes02",
+                "text": "Right away, sir."
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "tscyes03",
+                "text": "Orders received."
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "tscpss00",
+                "text": "Come again, cap'n?"
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "tscpss01",
+                "text": "I'm not readin' you clearly."
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "tscpss02",
+                "text": "You ain't from around here, are you?"
+            },
+            {
+                "id": "annoyance4",
+                "name": "Annoyance 4",
+                "sound": "tscpss03",
+                "text": "I can't believe they put me in one of these things."
+            },
+            {
+                "id": "annoyance5",
+                "name": "Annoyance 5",
+                "sound": "tscpss04",
+                "text": "And now I gotta put up with this too?"
+            },
+            {
+                "id": "annoyance6",
+                "name": "Annoyance 6",
+                "sound": "tscpss05",
+                "text": "I told 'em I was claustrophobic\u2014I gotta get outta here!"
+            },
+            {
+                "id": "annoyance7",
+                "name": "Annoyance 7",
+                "sound": "tscpss06",
+                "text": "I'm locked in here tighter than a frog's butt in a watermelon seed fight."
+            },
+            {
+                "id": "mining1",
+                "name": "Mining 1",
+                "sound": "tscmin00",
+                "text": ""
+            },
+            {
+                "id": "mining2",
+                "name": "Mining 2",
+                "sound": "tscmin01",
+                "text": ""
+            },
+            {
+                "id": "mining3",
+                "name": "Mining 3",
+                "sound": "edrrep00",
+                "text": "(Fusion Cutter)"
+            },
+            {
+                "id": "mining4",
+                "name": "Mining 4",
+                "sound": "edrrep01",
+                "text": "(Fusion Cutter)"
+            },
+            {
+                "id": "mining5",
+                "name": "Mining 5",
+                "sound": "edrrep02",
+                "text": "(Fusion Cutter)"
+            },
+            {
+                "id": "mining6",
+                "name": "Mining 6",
+                "sound": "edrrep03",
+                "text": "(Fusion Cutter)"
+            },
+            {
+                "id": "mining7",
+                "name": "Mining 7",
+                "sound": "edrrep04",
+                "text": "(Fusion Cutter)"
+            },
+            {
+                "id": "error1",
+                "name": "Error 1",
+                "sound": "tscerr00",
+                "text": "I can't build it. Som'in's in the way."
+            },
+            {
+                "id": "error2",
+                "name": "Error 2",
+                "sound": "tscerr01",
+                "text": "I can't build there."
+            },
+            {
+                "id": "update",
+                "name": "Update",
+                "sound": "tscupd00",
+                "text": "Job's finished."
+            },
+            {
+                "id": "death",
+                "name": "Death",
+                "sound": "tscdth00",
+                "text": ""
+            }
+        ]
     },
     {
         "id": "Marine",
@@ -44,12 +374,128 @@
         "frenchName": "Marine",
         "fiddleAnimations": null,
         "talkAnimations": null,
-        "sounds": {
-            "id": "death2",
-            "name": "Death 2",
-            "sound": "tmadth01",
-            "text": ""
-        }
+        "sounds": [
+            {
+                "id": "ready",
+                "name": "Ready",
+                "sound": "tmardy00",
+                "text": "You want a piece o' me, boy?"
+            },
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "tmawht00",
+                "text": "Commander?"
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "tmawht01",
+                "text": "Standin' by."
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "tmawht02",
+                "text": "Jacked up and good to go."
+            },
+            {
+                "id": "acknowledgement4",
+                "name": "Acknowledgement 4",
+                "sound": "tmawht03",
+                "text": "Gimme somethin' to shoot."
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "tmayes00",
+                "text": "Go go go!"
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "tmayes01",
+                "text": "Let's move!"
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "tmayes02",
+                "text": "Outstanding."
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "tmayes03",
+                "text": "Rock and roll."
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "tmapss00",
+                "text": "We gotta move."
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "tmapss01",
+                "text": "Are you gonna give me orders?"
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "tmapss02",
+                "text": "Oh my god, he's wacked."
+            },
+            {
+                "id": "annoyance4",
+                "name": "Annoyance 4",
+                "sound": "tmapss03",
+                "text": "I vote we frag this commander."
+            },
+            {
+                "id": "annoyance5",
+                "name": "Annoyance 5",
+                "sound": "tmapss04",
+                "text": "How do I get outta this chicken shit outfit?"
+            },
+            {
+                "id": "annoyance6",
+                "name": "Annoyance 6",
+                "sound": "tmapss05",
+                "text": "You want a piece o' me, boy?"
+            },
+            {
+                "id": "annoyance7",
+                "name": "Annoyance 7",
+                "sound": "tmapss06",
+                "text": "If it wasn't for these damn neural implants, you'd be a smokin' crater by now."
+            },
+            {
+                "id": "stimpack1",
+                "name": "Stimpack 1",
+                "sound": "tmasti00",
+                "text": "That's the stuff\u2026"
+            },
+            {
+                "id": "stimpack2",
+                "name": "Stimpack 2",
+                "sound": "tmasti01",
+                "text": "Aww yeah\u2026"
+            },
+            {
+                "id": "death1",
+                "name": "Death 1",
+                "sound": "tmadth00",
+                "text": ""
+            },
+            {
+                "id": "death2",
+                "name": "Death 2",
+                "sound": "tmadth01",
+                "text": ""
+            }
+        ]
     },
     {
         "id": "Firebat",
@@ -57,12 +503,134 @@
         "frenchName": "Flammeur",
         "fiddleAnimations": null,
         "talkAnimations": "[\"Tlk00\",\"Tlk01\"]",
-        "sounds": {
-            "id": "death3",
-            "name": "Death 3",
-            "sound": "tfbdth02",
-            "text": ""
-        }
+        "sounds": [
+            {
+                "id": "ready",
+                "name": "Ready",
+                "sound": "tfbrdy00",
+                "text": "Need a light?"
+            },
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "tfbwht00",
+                "text": "Fire it up."
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "tfbwht01",
+                "text": "Yes?"
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "tfbwht02",
+                "text": "You got my attention."
+            },
+            {
+                "id": "acknowledgement4",
+                "name": "Acknowledgement 4",
+                "sound": "tfbwht03",
+                "text": "Wanna turn up the heat?"
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "tfbyes00",
+                "text": "Naturally."
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "tfbyes01",
+                "text": "Flamin'."
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "tfbyes02",
+                "text": "You got it."
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "tfbyes03",
+                "text": "Let's burn."
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "tfbpss00",
+                "text": "Is something burning?"
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "tfbpss01",
+                "text": "*Flame spurt* Haha, that's what I thought."
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "tfbpss02",
+                "text": "I looove the smell of napalm."
+            },
+            {
+                "id": "annoyance4",
+                "name": "Annoyance 4",
+                "sound": "tfbpss03",
+                "text": "Nothin' like a good smoke."
+            },
+            {
+                "id": "annoyance5",
+                "name": "Annoyance 5",
+                "sound": "tfbpss04",
+                "text": "Are you tryin' to get invited to my next barbecue?"
+            },
+            {
+                "id": "annoyance6",
+                "name": "Annoyance 6",
+                "sound": "tfbpss05",
+                "text": "Got any questions about propane?"
+            },
+            {
+                "id": "annoyance7",
+                "name": "Annoyance 7",
+                "sound": "tfbpss06",
+                "text": "\u2026or, propane accessories?"
+            },
+            {
+                "id": "attack1",
+                "name": "Attack 1",
+                "sound": "tfbfir00",
+                "text": ""
+            },
+            {
+                "id": "attack2",
+                "name": "Attack 2",
+                "sound": "tfbfir01",
+                "text": ""
+            },
+            {
+                "id": "death1",
+                "name": "Death 1",
+                "sound": "tfbdth00",
+                "text": ""
+            },
+            {
+                "id": "death2",
+                "name": "Death 2",
+                "sound": "tfbdth01",
+                "text": ""
+            },
+            {
+                "id": "death3",
+                "name": "Death 3",
+                "sound": "tfbdth02",
+                "text": ""
+            }
+        ]
     },
     {
         "id": "Medic",
@@ -70,12 +638,158 @@
         "frenchName": "Officier, m\u00e9dical",
         "fiddleAnimations": null,
         "talkAnimations": null,
-        "sounds": {
-            "id": "death",
-            "name": "Death",
-            "sound": "tmddth00",
-            "text": ""
-        }
+        "sounds": [
+            {
+                "id": "ready",
+                "name": "Ready",
+                "sound": "tmdrdy00",
+                "text": "Prepped and ready."
+            },
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "tmdwht00",
+                "text": "Need medical attention?"
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "tmdwht01",
+                "text": "Did someone page me?"
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "tmdwht02",
+                "text": "State the nature of your medical emergency."
+            },
+            {
+                "id": "acknowledgement4",
+                "name": "Acknowledgement 4",
+                "sound": "tmdwht03",
+                "text": "Where does it hurt?"
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "tmdyes00",
+                "text": "Right away."
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "tmdyes01",
+                "text": "Stat!"
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "tmdyes02",
+                "text": "I'm on the job."
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "tmdyes03",
+                "text": "On my way."
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "tmdpss00",
+                "text": "I've already checked you out, Commander."
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "tmdpss01",
+                "text": "You want another physical?"
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "tmdpss02",
+                "text": "Turn your head and cough."
+            },
+            {
+                "id": "annoyance4",
+                "name": "Annoyance 4",
+                "sound": "tmdpss03",
+                "text": "Ready for your sponge bath?"
+            },
+            {
+                "id": "annoyance5",
+                "name": "Annoyance 5",
+                "sound": "tmdpss04",
+                "text": "His EKG is flatlining! Give me a defib stat!"
+            },
+            {
+                "id": "annoyance6",
+                "name": "Annoyance 6",
+                "sound": "tmdpss05",
+                "text": "Clear! *zap*"
+            },
+            {
+                "id": "annoyance7",
+                "name": "Annoyance 7",
+                "sound": "tmdpss06",
+                "text": "He's dead, Jim."
+            },
+            {
+                "id": "restoration1",
+                "name": "Restoration 1",
+                "sound": "tmedcure",
+                "text": ""
+            },
+            {
+                "id": "restoration2",
+                "name": "Restoration 2",
+                "sound": "tmedrest",
+                "text": ""
+            },
+            {
+                "id": "flare1",
+                "name": "Optic Flare (shot)",
+                "sound": "tmedflsh",
+                "text": ""
+            },
+            {
+                "id": "flare2",
+                "name": "Optic Flare (hit)",
+                "sound": "miopia1",
+                "text": ""
+            },
+            {
+                "id": "heal",
+                "name": "Heal",
+                "sound": "tmedheal",
+                "text": ""
+            },
+            {
+                "id": "unknown1",
+                "name": "Unknown Sound",
+                "sound": "tmedheal2",
+                "text": ""
+            },
+            {
+                "id": "unknown2",
+                "name": "Unknown Sound",
+                "sound": "tmedcure2",
+                "text": ""
+            },
+            {
+                "id": "unknown3",
+                "name": "Unknown Sound",
+                "sound": "tmedrest1",
+                "text": ""
+            },
+            {
+                "id": "death",
+                "name": "Death",
+                "sound": "tmddth00",
+                "text": ""
+            }
+        ]
     },
     {
         "id": "Ghost",
@@ -83,12 +797,110 @@
         "frenchName": "Fantome",
         "fiddleAnimations": null,
         "talkAnimations": "[\"Tlk00\"]",
-        "sounds": {
-            "id": "death2",
-            "name": "Death 2",
-            "sound": "tghdth01",
-            "text": ""
-        }
+        "sounds": [
+            {
+                "id": "ready",
+                "name": "Ready",
+                "sound": "tghrdy00",
+                "text": "Somebody call for an exterminator?"
+            },
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "tghwht00",
+                "text": "Ghost reportin'."
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "tghwht01",
+                "text": "I'm here."
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "tghwht02",
+                "text": "Finally."
+            },
+            {
+                "id": "acknowledgement4",
+                "name": "Acknowledgement 4",
+                "sound": "tghwht03",
+                "text": "Call the shot."
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "tghyes00",
+                "text": "I hear that."
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "tghyes01",
+                "text": "I'm gone."
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "tghyes02",
+                "text": "Never know what hit 'em."
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "tghyes03",
+                "text": "I'm all over it."
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "tghpss00",
+                "text": "You called down the thunder\u2026"
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "tghpss01",
+                "text": "Now reap the whirlwind."
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "tghpss02",
+                "text": "Keep it up; I dare ya."
+            },
+            {
+                "id": "annoyance4",
+                "name": "Annoyance 4",
+                "sound": "tghpss03",
+                "text": "I'm about to overload my aggression inhibitors."
+            },
+            {
+                "id": "lockdown",
+                "name": "Lockdown",
+                "sound": "tghlkd00",
+                "text": ""
+            },
+            {
+                "id": "nuclear",
+                "name": "Nuclear Strike Marker",
+                "sound": "tghlas00",
+                "text": ""
+            },
+            {
+                "id": "death1",
+                "name": "Death 1",
+                "sound": "tghdth00",
+                "text": ""
+            },
+            {
+                "id": "death2",
+                "name": "Death 2",
+                "sound": "tghdth01",
+                "text": ""
+            }
+        ]
     },
     {
         "id": "Vulture",
@@ -96,12 +908,104 @@
         "frenchName": "Vautour",
         "fiddleAnimations": null,
         "talkAnimations": "[\"Tlk00\",\"Tlk01\"]",
-        "sounds": {
-            "id": "death",
-            "name": "Death",
-            "sound": "tvudth00",
-            "text": ""
-        }
+        "sounds": [
+            {
+                "id": "ready",
+                "name": "Ready",
+                "sound": "tvurdy00",
+                "text": "Alright. Bring it on!"
+            },
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "tvuwht00",
+                "text": "Whadda you want?"
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "tvuwht01",
+                "text": "Yeah?"
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "tvuwht02",
+                "text": "I read ya\u2026 Sir."
+            },
+            {
+                "id": "acknowledgement4",
+                "name": "Acknowledgement 4",
+                "sound": "tvuwht03",
+                "text": "Somethin' on your mind?"
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "tvuyes00",
+                "text": "Yeah, I'm goin'."
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "tvuyes01",
+                "text": "I dig."
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "tvuyes02",
+                "text": "No problem."
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "tvuyes03",
+                "text": "Oh, is that it?"
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "tvupss00",
+                "text": "Somethin' you wanted?"
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "tvupss01",
+                "text": "I don't have time to fuck around!"
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "tvupss02",
+                "text": "You keep pushin' me, boy."
+            },
+            {
+                "id": "annoyance4",
+                "name": "Annoyance 4",
+                "sound": "tvupss03",
+                "text": "And I'll scrap you along with the aliens!"
+            },
+            {
+                "id": "deployment",
+                "name": "Spider Mine Deployment",
+                "sound": "tvumin00",
+                "text": ""
+            },
+            {
+                "id": "burrow",
+                "name": "Spider Mine Burrow",
+                "sound": "tvumin01",
+                "text": ""
+            },
+            {
+                "id": "death",
+                "name": "Death",
+                "sound": "tvudth00",
+                "text": ""
+            }
+        ]
     },
     {
         "id": "SiegeTank",
@@ -109,12 +1013,104 @@
         "frenchName": "Char de si\u00e8ge",
         "fiddleAnimations": null,
         "talkAnimations": null,
-        "sounds": {
-            "id": "death",
-            "name": "Death",
-            "sound": "ttadth00",
-            "text": ""
-        }
+        "sounds": [
+            {
+                "id": "ready",
+                "name": "Ready",
+                "sound": "ttardy00",
+                "text": "Ready to roll out."
+            },
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "ttawht00",
+                "text": "Yes sir!"
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "ttawht01",
+                "text": "Destination?"
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "ttawht02",
+                "text": "Identify target."
+            },
+            {
+                "id": "acknowledgement4",
+                "name": "Acknowledgement 4",
+                "sound": "ttawht03",
+                "text": "Orders, sir!"
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "ttayes00",
+                "text": "Move it."
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "ttayes01",
+                "text": "Proceedin'."
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "ttayes02",
+                "text": "Delighted to, sir!"
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "ttayes03",
+                "text": "Absolutely."
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "ttapss00",
+                "text": "Da-dadadada, da-dadadadow!"
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "ttapss01",
+                "text": "I'm about to drop the hammer\u2026"
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "ttapss02",
+                "text": "\u2026and dispense some indiscriminate justice!"
+            },
+            {
+                "id": "annoyance4",
+                "name": "Annoyance 4",
+                "sound": "ttapss03",
+                "text": "What IS your major malfunction?"
+            },
+            {
+                "id": "siegeMode1",
+                "name": "Siege Mode (Shock Cannon)",
+                "sound": "ttatra00",
+                "text": ""
+            },
+            {
+                "id": "siegeMode2",
+                "name": "Siege Mode (Outriggers)",
+                "sound": "ttatra01",
+                "text": ""
+            },
+            {
+                "id": "death",
+                "name": "Death",
+                "sound": "ttadth00",
+                "text": ""
+            }
+        ]
     },
     {
         "id": "Goliath",
@@ -122,12 +1118,104 @@
         "frenchName": "Goliath",
         "fiddleAnimations": "[\"Fid00\",\"Fid01\",\"Fid02\"]",
         "talkAnimations": "[\"Tlk00\",\"Tlk01\"]",
-        "sounds": {
-            "id": "death",
-            "name": "Death",
-            "sound": "tgodth00",
-            "text": ""
-        }
+        "sounds": [
+            {
+                "id": "ready",
+                "name": "Ready",
+                "sound": "tgordy00",
+                "text": "Goliath online."
+            },
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "tgowht00",
+                "text": "Go ahead, TACCOM."
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "tgowht01",
+                "text": "Comm-link online."
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "tgowht02",
+                "text": "Channel open."
+            },
+            {
+                "id": "acknowledgement4",
+                "name": "Acknowledgement 4",
+                "sound": "tgowht03",
+                "text": "Systems functional."
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "tgoyes00",
+                "text": "Acknowledged, H.Q."
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "tgoyes01",
+                "text": "Nav-com locked."
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "tgoyes02",
+                "text": "Confirmed."
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "tgoyes03",
+                "text": "Target designated."
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "tgopss00",
+                "text": "MilSpeck ED-209 on."
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "tgopss01",
+                "text": "Checklist protocol initiated."
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "tgopss02",
+                "text": "Running level 1 diagnostic."
+            },
+            {
+                "id": "annoyance4",
+                "name": "Annoyance 4",
+                "sound": "tgopss03",
+                "text": "U.S.D.A. selected."
+            },
+            {
+                "id": "annoyance5",
+                "name": "Annoyance 5",
+                "sound": "tgopss04",
+                "text": "F.D.I.C. approved."
+            },
+            {
+                "id": "annoyance6",
+                "name": "Annoyance 6",
+                "sound": "tgopss05",
+                "text": "Checklist completed, S.O.B."
+            },
+            {
+                "id": "death",
+                "name": "Death",
+                "sound": "tgodth00",
+                "text": ""
+            }
+        ]
     },
     {
         "id": "Wraith",
@@ -135,12 +1223,122 @@
         "frenchName": "Ombre",
         "fiddleAnimations": "[\"Fid00\",\"Fid01\",\"Fid02\"]",
         "talkAnimations": null,
-        "sounds": {
-            "id": "death",
-            "name": "Death",
-            "sound": "tphdth00",
-            "text": ""
-        }
+        "sounds": [
+            {
+                "id": "ready",
+                "name": "Ready",
+                "sound": "tphrdy00",
+                "text": "Wraith awaiting launch orders."
+            },
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "tphwht00",
+                "text": "Go ahead, command."
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "tphwht01",
+                "text": "Transmit coordinates."
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "tphwht02",
+                "text": "Standing by."
+            },
+            {
+                "id": "acknowledgement4",
+                "name": "Acknowledgement 4",
+                "sound": "tphwht03",
+                "text": "Reporting in."
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "tphyes00",
+                "text": "Coordinates received."
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "tphyes01",
+                "text": "Attack formation."
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "tphyes02",
+                "text": "Roger."
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "tphyes03",
+                "text": "Sector locked in."
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "tphpss00",
+                "text": "Last transmission breakin' up\u2026 come back."
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "tphpss01",
+                "text": "I'm just curious\u2026 why am I so good?"
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "tphpss02",
+                "text": "I gotta get me one of these."
+            },
+            {
+                "id": "annoyance4",
+                "name": "Annoyance 4",
+                "sound": "tphpss03",
+                "text": "You know who the best star fighter in the fleet is?"
+            },
+            {
+                "id": "annoyance5",
+                "name": "Annoyance 5",
+                "sound": "tphpss04",
+                "text": "Yours truly."
+            },
+            {
+                "id": "annoyance6",
+                "name": "Annoyance 6",
+                "sound": "tphpss05",
+                "text": "Everybody's gotta die sometime, red."
+            },
+            {
+                "id": "annoyance7",
+                "name": "Annoyance 7",
+                "sound": "tphpss06",
+                "text": "I am invincible\u2026 that's right."
+            },
+            {
+                "id": "cloak",
+                "name": "Cloak",
+                "sound": "tphclo00",
+                "text": ""
+            },
+            {
+                "id": "decloak",
+                "name": "De-Cloak",
+                "sound": "tphclo01",
+                "text": ""
+            },
+            {
+                "id": "death",
+                "name": "Death",
+                "sound": "tphdth00",
+                "text": ""
+            }
+        ]
     },
     {
         "id": "Dropship",
@@ -148,12 +1346,104 @@
         "frenchName": "Transport",
         "fiddleAnimations": null,
         "talkAnimations": null,
-        "sounds": {
-            "id": "death",
-            "name": "Death",
-            "sound": "tdrdth00",
-            "text": ""
-        }
+        "sounds": [
+            {
+                "id": "ready",
+                "name": "Ready",
+                "sound": "tdrrdy00",
+                "text": "Can I take your order?"
+            },
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "tdrwht00",
+                "text": "Go ahead, H.Q."
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "tdrwht01",
+                "text": "I'm listenin'."
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "tdrwht02",
+                "text": "Destination?"
+            },
+            {
+                "id": "acknowledgement4",
+                "name": "Acknowledgement 4",
+                "sound": "tdrwht03",
+                "text": "Input coordinates."
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "tdryes00",
+                "text": "In the pipe, five by five."
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "tdryes01",
+                "text": "Hang on, we're in for some chop."
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "tdryes02",
+                "text": "In transit, H.Q."
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "tdryes03",
+                "text": "Buckle up."
+            },
+            {
+                "id": "affirmation5",
+                "name": "Affirmation 5",
+                "sound": "tdryes04",
+                "text": "Strap yourselves in, boys."
+            },
+            {
+                "id": "affirmation6",
+                "name": "Affirmation 6",
+                "sound": "tdryes05",
+                "text": "I copy that."
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "tdrpss00",
+                "text": "When removing your overhead luggage, please be careful."
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "tdrpss01",
+                "text": "In case of a water landing, you may be used as a flotation device."
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "tdrpss02",
+                "text": "To hurl chunks, please use the vomit bag in front of you."
+            },
+            {
+                "id": "annoyance4",
+                "name": "Annoyance 4",
+                "sound": "tdrpss03",
+                "text": "Keep your arms and legs inside until this ride comes to a full and complete stop."
+            },
+            {
+                "id": "death",
+                "name": "Death",
+                "sound": "tdrdth00",
+                "text": ""
+            }
+        ]
     },
     {
         "id": "ScienceVessel",
@@ -161,12 +1451,128 @@
         "frenchName": "Vaisseau laboratoire",
         "fiddleAnimations": null,
         "talkAnimations": null,
-        "sounds": {
-            "id": "death",
-            "name": "Death",
-            "sound": "tvedth00",
-            "text": ""
-        }
+        "sounds": [
+            {
+                "id": "ready",
+                "name": "Ready",
+                "sound": "tverdy00",
+                "text": "Explorer reporting."
+            },
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "tvewht00",
+                "text": "Ah, greetings command."
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "tvewht01",
+                "text": "Transmit orders."
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "tvewht02",
+                "text": "Receiving, headquarters."
+            },
+            {
+                "id": "acknowledgement4",
+                "name": "Acknowledgement 4",
+                "sound": "tvewht03",
+                "text": "We have you on visual."
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "tveyes00",
+                "text": "Let's roll."
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "tveyes01",
+                "text": "Excellent."
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "tveyes02",
+                "text": "Commencing."
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "tveyes03",
+                "text": "Affirmative, sir."
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "tvepss00",
+                "text": "I like the cut of your jib."
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "tvepss01",
+                "text": "E equals MC\u2026 D'oh, let me get my notepad."
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "tvepss02",
+                "text": "Hmm, fusion eh? I'll have to remember that."
+            },
+            {
+                "id": "annoyance4",
+                "name": "Annoyance 4",
+                "sound": "tvepss03",
+                "text": "Who set all these lab monkeys free?"
+            },
+            {
+                "id": "annoyance5",
+                "name": "Annoyance 5",
+                "sound": "tvepss04",
+                "text": "I think we may have a gas leak."
+            },
+            {
+                "id": "annoyance6",
+                "name": "Annoyance 6",
+                "sound": "tvepss05",
+                "text": "Do any of you fools know how to shut off this infernal contraption?"
+            },
+            {
+                "id": "annoyance7",
+                "name": "Annoyance 7",
+                "sound": "tvepss06",
+                "text": "Ahh\u2026 the ship\u2026 out of danger?"
+            },
+            {
+                "id": "defensive",
+                "name": "Defensive Matrix",
+                "sound": "tvedef00",
+                "text": ""
+            },
+            {
+                "id": "irradiate",
+                "name": "Irradiate",
+                "sound": "tveirr00",
+                "text": ""
+            },
+            {
+                "id": "unknown",
+                "name": "Unknown",
+                "sound": "tveemp00",
+                "text": ""
+            },
+            {
+                "id": "death",
+                "name": "Death",
+                "sound": "tvedth00",
+                "text": ""
+            }
+        ]
     },
     {
         "id": "Valkyrie",
@@ -174,12 +1580,128 @@
         "frenchName": "Valkyrie",
         "fiddleAnimations": null,
         "talkAnimations": null,
-        "sounds": {
-            "id": "death",
-            "name": "Death",
-            "sound": "tvkdth00",
-            "text": ""
-        }
+        "sounds": [
+            {
+                "id": "ready",
+                "name": "Ready",
+                "sound": "tvkrdy00",
+                "text": "Valkyrie prepared."
+            },
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "tvkwht00",
+                "text": "Need something destroyed?"
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "tvkwht01",
+                "text": "I am eager to help."
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "tvkwht02",
+                "text": "Don't keep me waiting."
+            },
+            {
+                "id": "acknowledgement4",
+                "name": "Acknowledgement 4",
+                "sound": "tvkwht03",
+                "text": "Achtung!"
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "tvkyes00",
+                "text": "Of course, mein herr."
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "tvkyes01",
+                "text": "Perfect!"
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "tvkyes02",
+                "text": "It's show time."
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "tvkyes03",
+                "text": "Jawohl."
+            },
+            {
+                "id": "affirmation5",
+                "name": "Affirmation 5",
+                "sound": "tvkyes04",
+                "text": "Achtung!"
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "tvkpss00",
+                "text": "This is very interesting\u2026 but stupid."
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "tvkpss01",
+                "text": "I have ways of blowing things up."
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "tvkpss02",
+                "text": "You're being very naughty."
+            },
+            {
+                "id": "annoyance4",
+                "name": "Annoyance 4",
+                "sound": "tvkpss03",
+                "text": "Who's your mommy?"
+            },
+            {
+                "id": "annoyance5",
+                "name": "Annoyance 5",
+                "sound": "tvkpss04",
+                "text": "Blucher!"
+            },
+            {
+                "id": "annoyance6",
+                "name": "Annoyance 6",
+                "sound": "tvkpss05",
+                "text": "*horse whinnying*"
+            },
+            {
+                "id": "afterburnersOn",
+                "name": "Afterburners On",
+                "sound": "afteron",
+                "text": ""
+            },
+            {
+                "id": "afterburnersOff",
+                "name": "Afterburners Off",
+                "sound": "afteroff",
+                "text": ""
+            },
+            {
+                "id": "shoot",
+                "name": "Shoot",
+                "sound": "shoot2",
+                "text": ""
+            },
+            {
+                "id": "death",
+                "name": "Death",
+                "sound": "tvkdth00",
+                "text": ""
+            }
+        ]
     },
     {
         "id": "Battlecruiser",
@@ -187,12 +1709,110 @@
         "frenchName": "Cuirass\u00e9",
         "fiddleAnimations": null,
         "talkAnimations": null,
-        "sounds": {
-            "id": "death",
-            "name": "Death",
-            "sound": "tbadth00",
-            "text": ""
-        }
+        "sounds": [
+            {
+                "id": "ready",
+                "name": "Ready",
+                "sound": "tbardy00",
+                "text": "Battlecruiser operational."
+            },
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "tbawht00",
+                "text": "All crews reporting."
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "tbawht01",
+                "text": "Receiving transmission."
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "tbawht02",
+                "text": "Good day, commander."
+            },
+            {
+                "id": "acknowledgement4",
+                "name": "Acknowledgement 4",
+                "sound": "tbawht03",
+                "text": "Hailing frequencies open."
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "tbayes00",
+                "text": "Make it happen."
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "tbayes01",
+                "text": "Set a course."
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "tbayes02",
+                "text": "Take it slow."
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "tbayes03",
+                "text": "Engage."
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "tbapss00",
+                "text": "Identify yourself."
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "tbapss01",
+                "text": "Shields up, weapons online."
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "tbapss02",
+                "text": "Not equipped with shields? Well then, buckle up!"
+            },
+            {
+                "id": "annoyance4",
+                "name": "Annoyance 4",
+                "sound": "tbapss03",
+                "text": "We are getting way behind schedule."
+            },
+            {
+                "id": "annoyance5",
+                "name": "Annoyance 5",
+                "sound": "tbapss04",
+                "text": "I really have to go, number 1."
+            },
+            {
+                "id": "yamato1",
+                "name": "Yamato Cannon Windup",
+                "sound": "tbayam01",
+                "text": ""
+            },
+            {
+                "id": "yamato2",
+                "name": "Yamato Cannon Shot",
+                "sound": "tbayam02",
+                "text": ""
+            },
+            {
+                "id": "death",
+                "name": "Death",
+                "sound": "tbadth00",
+                "text": ""
+            }
+        ]
     },
     {
         "id": "RaynorMarine",
@@ -200,12 +1820,92 @@
         "frenchName": "Jim Raynor (Marine)",
         "fiddleAnimations": null,
         "talkAnimations": null,
-        "sounds": {
-            "id": "death2",
-            "name": "Death 2",
-            "sound": "uradth01",
-            "text": ""
-        }
+        "sounds": [
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "urawht00",
+                "text": "Raynor here."
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "urawht01",
+                "text": "This is Jimmy."
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "urawht02",
+                "text": "Anytime you're ready."
+            },
+            {
+                "id": "acknowledgement4",
+                "name": "Acknowledgement 4",
+                "sound": "urawht03",
+                "text": "Go ahead commander."
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "urayes00",
+                "text": "Sounds fun."
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "urayes01",
+                "text": "Right on."
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "urayes02",
+                "text": "This should be good."
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "urayes03",
+                "text": "Oh yeah."
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "urapss00",
+                "text": "Hey, quit it!"
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "urapss01",
+                "text": "What's your problem, man?"
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "urapss02",
+                "text": "Look commander, do you mind?"
+            },
+            {
+                "id": "annoyance4",
+                "name": "Annoyance 4",
+                "sound": "urapss03",
+                "text": "I knew I shoulda stayed in bed this mornin'."
+            },
+            {
+                "id": "death1",
+                "name": "Death 1",
+                "sound": "uradth00",
+                "text": ""
+            },
+            {
+                "id": "death2",
+                "name": "Death 2",
+                "sound": "uradth01",
+                "text": ""
+            }
+        ]
     },
     {
         "id": "RaynorVulture",
@@ -213,12 +1913,86 @@
         "frenchName": "Jim Raynor (Vautour)",
         "fiddleAnimations": null,
         "talkAnimations": null,
-        "sounds": {
-            "id": "death",
-            "name": "Death",
-            "sound": "urvdth00",
-            "text": ""
-        }
+        "sounds": [
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "urvwht00",
+                "text": "Raynor here."
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "urvwht01",
+                "text": "This is Jimmy."
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "urvwht02",
+                "text": "Anytime you're ready."
+            },
+            {
+                "id": "acknowledgement4",
+                "name": "Acknowledgement 4",
+                "sound": "urvwht03",
+                "text": "Go ahead commander."
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "urvyes00",
+                "text": "Sounds fun."
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "urvyes01",
+                "text": "Right on."
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "urvyes02",
+                "text": "This should be good."
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "urvyes03",
+                "text": "Oh yeah."
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "urvpss00",
+                "text": "Hey, quit it!"
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "urvpss01",
+                "text": "What's your problem, man?"
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "urvpss02",
+                "text": "Look commander, do you mind?"
+            },
+            {
+                "id": "annoyance4",
+                "name": "Annoyance 4",
+                "sound": "urvpss03",
+                "text": "I knew I shoulda stayed in bed this mornin'."
+            },
+            {
+                "id": "death",
+                "name": "Death",
+                "sound": "urvdth00",
+                "text": ""
+            }
+        ]
     },
     {
         "id": "Kerrigan",
@@ -226,12 +2000,92 @@
         "frenchName": "Sarah Kerrigan",
         "fiddleAnimations": null,
         "talkAnimations": null,
-        "sounds": {
-            "id": "death",
-            "name": "Death",
-            "sound": "ukedth00",
-            "text": ""
-        }
+        "sounds": [
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "ukewht00",
+                "text": "Lieutenant Kerrigan reporting."
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "ukewht01",
+                "text": "What now?"
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "ukewht02",
+                "text": "I'm waitin' on you!"
+            },
+            {
+                "id": "acknowledgement4",
+                "name": "Acknowledgement 4",
+                "sound": "ukewht03",
+                "text": "I'm ready."
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "ukeyes00",
+                "text": "I gotcha."
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "ukeyes01",
+                "text": "Thinkin' the same thing."
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "ukeyes02",
+                "text": "It'd be a pleasure."
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "ukeyes03",
+                "text": "I read ya. (chuckle)"
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "ukepss00",
+                "text": "Easily amused, huh?"
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "ukepss01",
+                "text": "Doesn't take a telepath to know what you're thinkin'."
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "ukepss02",
+                "text": "You get off on annoying people, don't you?"
+            },
+            {
+                "id": "annoyance4",
+                "name": "Annoyance 4",
+                "sound": "ukepss03",
+                "text": "You may have time to play games\u2026"
+            },
+            {
+                "id": "annoyance5",
+                "name": "Annoyance 5",
+                "sound": "ukepss04",
+                "text": "\u2026but I've got a job to do."
+            },
+            {
+                "id": "death",
+                "name": "Death",
+                "sound": "ukedth00",
+                "text": ""
+            }
+        ]
     },
     {
         "id": "Duran",
@@ -239,12 +2093,116 @@
         "frenchName": "Samir Duran",
         "fiddleAnimations": null,
         "talkAnimations": null,
-        "sounds": {
-            "id": "death",
-            "name": "Death",
-            "sound": "tdndth00",
-            "text": ""
-        }
+        "sounds": [
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "tdnwht00",
+                "text": "How can I be of service?"
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "tdnwht01",
+                "text": "What do you need?"
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "tdnwht02",
+                "text": "I'm here."
+            },
+            {
+                "id": "acknowledgement4",
+                "name": "Acknowledgement 4",
+                "sound": "tdnwht03",
+                "text": "Yes captain?"
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "tdnyes00",
+                "text": "I'll take care of it."
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "tdnyes01",
+                "text": "Right away."
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "tdnyes02",
+                "text": "You got it."
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "tdnyes03",
+                "text": "Of course."
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "tdnpss00",
+                "text": "Is there a problem?"
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "tdnpss01",
+                "text": "(laughter) I like your style, friend."
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "tdnpss02",
+                "text": "But I think you're getting a little too familiar."
+            },
+            {
+                "id": "annoyance4",
+                "name": "Annoyance 4",
+                "sound": "tdnpss03",
+                "text": "I don't believe we've met."
+            },
+            {
+                "id": "annoyance5",
+                "name": "Annoyance 5",
+                "sound": "tdnpss04",
+                "text": "I am Duran. Who are you?"
+            },
+            {
+                "id": "annoyance6",
+                "name": "Annoyance 6",
+                "sound": "tdnpss05",
+                "text": "I told you my name. It's Duran, Duran!"
+            },
+            {
+                "id": "annoyance7",
+                "name": "Annoyance 7",
+                "sound": "tdnpss06",
+                "text": "What's so funny?"
+            },
+            {
+                "id": "annoyance8",
+                "name": "Annoyance 8",
+                "sound": "tdnpss07",
+                "text": "Please, please, tell me now!"
+            },
+            {
+                "id": "annoyance9",
+                "name": "Annoyance 9",
+                "sound": "tdnpss08",
+                "text": "Is there something I should know?"
+            },
+            {
+                "id": "death",
+                "name": "Death",
+                "sound": "tdndth00",
+                "text": ""
+            }
+        ]
     },
     {
         "id": "DukeBattlecruiser",
@@ -252,12 +2210,92 @@
         "frenchName": "Edmund Duke (Cuirass\u00e9)",
         "fiddleAnimations": null,
         "talkAnimations": null,
-        "sounds": {
-            "id": "death",
-            "name": "Death",
-            "sound": "ududth00",
-            "text": ""
-        }
+        "sounds": [
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "uduwht00",
+                "text": "WHAT!?"
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "uduwht01",
+                "text": "Well?"
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "uduwht02",
+                "text": "I haven't got all day."
+            },
+            {
+                "id": "acknowledgement4",
+                "name": "Acknowledgement 4",
+                "sound": "uduwht03",
+                "text": "Make up your mind."
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "uduyes00",
+                "text": "'Bout time."
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "uduyes01",
+                "text": "Decisive action."
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "uduyes02",
+                "text": "Should work."
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "uduyes03",
+                "text": "Alright then."
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "udupss00",
+                "text": "Been a general for fifteen years\u2026"
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "udupss01",
+                "text": "\u2026now I'm takin' orders from a pup."
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "udupss02",
+                "text": "This Korhol outfit's a mess."
+            },
+            {
+                "id": "annoyance4",
+                "name": "Annoyance 4",
+                "sound": "udupss03",
+                "text": "Y'all need some good ol' fashioned discipline!"
+            },
+            {
+                "id": "annoyance5",
+                "name": "Annoyance 5",
+                "sound": "udupss04",
+                "text": "\u2026that's what you need."
+            },
+            {
+                "id": "death",
+                "name": "Death",
+                "sound": "ududth00",
+                "text": ""
+            }
+        ]
     },
     {
         "id": "DukeTank",
@@ -265,11 +2303,91 @@
         "frenchName": "Edmund Duke (Char)",
         "fiddleAnimations": null,
         "talkAnimations": null,
-        "sounds": {
-            "id": "death",
-            "name": "Death",
-            "sound": "udtdth00",
-            "text": ""
-        }
+        "sounds": [
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "udtwht00",
+                "text": "WHAT!?"
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "udtwht01",
+                "text": "Well?"
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "udtwht02",
+                "text": "I haven't got all day."
+            },
+            {
+                "id": "acknowledgement4",
+                "name": "Acknowledgement 4",
+                "sound": "udtwht03",
+                "text": "Make up your mind."
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "udtyes00",
+                "text": "'Bout time."
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "udtyes01",
+                "text": "Decisive action."
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "udtyes02",
+                "text": "Should work."
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "udtyes03",
+                "text": "Alright then."
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "udtpss00",
+                "text": "Been a general for fifteen years\u2026"
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "udtpss01",
+                "text": "\u2026now I'm takin' orders from a pup."
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "udtpss02",
+                "text": "This Korhol outfit's a mess."
+            },
+            {
+                "id": "annoyance4",
+                "name": "Annoyance 4",
+                "sound": "udtpss03",
+                "text": "Y'all need some good ol' fashioned discipline!"
+            },
+            {
+                "id": "annoyance5",
+                "name": "Annoyance 5",
+                "sound": "udtpss04",
+                "text": "\u2026that's what you need."
+            },
+            {
+                "id": "death",
+                "name": "Death",
+                "sound": "udtdth00",
+                "text": ""
+            }
+        ]
     }
 ]

@@ -5,12 +5,62 @@
         "frenchName": "Conseill\u00e9",
         "fiddleAnimations": null,
         "talkAnimations": null,
-        "sounds": {
-            "id": "error4",
-            "name": "Error 4",
-            "sound": "paderr06",
-            "text": "No enough energy."
-        }
+        "sounds": [
+            {
+                "id": "update1",
+                "name": "Update 1",
+                "sound": "padupd00",
+                "text": "We are under attack!"
+            },
+            {
+                "id": "update2",
+                "name": "Update 2",
+                "sound": "padupd01",
+                "text": "Your warriors have engaged the enemy."
+            },
+            {
+                "id": "update3",
+                "name": "Update 3",
+                "sound": "padupd02",
+                "text": "Research complete."
+            },
+            {
+                "id": "update4",
+                "name": "Update 4",
+                "sound": "padupd04",
+                "text": "Nuclear launch detected."
+            },
+            {
+                "id": "update5",
+                "name": "Update 5",
+                "sound": "padupd06",
+                "text": "Upgrade complete."
+            },
+            {
+                "id": "error1",
+                "name": "Error 1",
+                "sound": "paderr00",
+                "text": "You've not enough minerals."
+            },
+            {
+                "id": "error2",
+                "name": "Error 2",
+                "sound": "paderr01",
+                "text": "You require more vespene gas."
+            },
+            {
+                "id": "error3",
+                "name": "Error 3",
+                "sound": "paderr02",
+                "text": "You must construct additional pylons."
+            },
+            {
+                "id": "error4",
+                "name": "Error 4",
+                "sound": "paderr06",
+                "text": "No enough energy."
+            }
+        ]
     },
     {
         "id": "Probe",
@@ -18,12 +68,122 @@
         "frenchName": "Sonde (Ouvrier)",
         "fiddleAnimations": null,
         "talkAnimations": null,
-        "sounds": {
-            "id": "death",
-            "name": "Death",
-            "sound": "pprdth00",
-            "text": "(Robotic)"
-        }
+        "sounds": [
+            {
+                "id": "ready",
+                "name": "Ready",
+                "sound": "pprrdy00",
+                "text": "(Robotic)"
+            },
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "pprwht00",
+                "text": "(Robotic)"
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "pprwht01",
+                "text": "(Robotic)"
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "pprwht02",
+                "text": "(Robotic, same as Acknowledgement 1)"
+            },
+            {
+                "id": "acknowledgement4",
+                "name": "Acknowledgement 4",
+                "sound": "pprwht03",
+                "text": "(Robotic)"
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "ppryes00",
+                "text": "(Robotic)"
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "ppryes01",
+                "text": "(Robotic)"
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "ppryes02",
+                "text": "(Robotic)"
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "ppryes03",
+                "text": "(Robotic)"
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "pprpss00",
+                "text": "(Robotic)"
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "pprpss01",
+                "text": "What do you need?"
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "pprpss02",
+                "text": "(Robotic, could be \"No\"?)"
+            },
+            {
+                "id": "annoyance4",
+                "name": "Annoyance 4",
+                "sound": "pprpss03",
+                "text": "(Robotic)"
+            },
+            {
+                "id": "miningAction",
+                "name": "Mining action",
+                "sound": "pprmin00",
+                "text": "(Particle Beam)"
+            },
+            {
+                "id": "error1",
+                "name": "Error 1",
+                "sound": "pprerr00",
+                "text": "(Robotic)"
+            },
+            {
+                "id": "error2",
+                "name": "Error 2",
+                "sound": "pprerr01",
+                "text": "(Robotic, same as Annoyance 3)"
+            },
+            {
+                "id": "attack1",
+                "name": "Attack 1",
+                "sound": "ppratt00",
+                "text": "(Particle Beam)"
+            },
+            {
+                "id": "attack2",
+                "name": "Attack 2",
+                "sound": "ppratt01",
+                "text": "(Particle Beam)"
+            },
+            {
+                "id": "death",
+                "name": "Death",
+                "sound": "pprdth00",
+                "text": "(Robotic)"
+            }
+        ]
     },
     {
         "id": "Zealot",
@@ -31,12 +191,110 @@
         "frenchName": "Disciple",
         "fiddleAnimations": "[\"Fid00\",\"Fid01\",\"Fid02\"]",
         "talkAnimations": "[\"Tlk00\",\"Tlk01\"]",
-        "sounds": {
-            "id": "death",
-            "name": "Death",
-            "sound": "pzedth00",
-            "text": ""
-        }
+        "sounds": [
+            {
+                "id": "ready",
+                "name": "Ready",
+                "sound": "pzerdy00",
+                "text": "My life for Aiur!"
+            },
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "pzewht00",
+                "text": "What battle calls?"
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "pzewht01",
+                "text": "Isorachoo! (Khalani)"
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "pzewht02",
+                "text": "I long for combat!"
+            },
+            {
+                "id": "acknowledgement4",
+                "name": "Acknowledgement 4",
+                "sound": "pzewht03",
+                "text": "Gee, ous! (Khalani)"
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "pzeyes00",
+                "text": "Dao Gola. (Khalani)"
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "pzeyes01",
+                "text": "Thus I serve."
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "pzeyes02",
+                "text": "Honor guide me."
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "pzeyes03",
+                "text": "For Adun."
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "pzepss00",
+                "text": "En Taro Adun! (Khalani greeting)"
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "pzepss01",
+                "text": "ALL for the empire!"
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "pzepss02",
+                "text": "DOOM to ALL who threaten the homeworld!"
+            },
+            {
+                "id": "rage",
+                "name": "Rage?",
+                "sound": "pzerag00",
+                "text": "UuurrrrAAAAAAHHHH!"
+            },
+            {
+                "id": "attack1",
+                "name": "Attack 1",
+                "sound": "pzeatt00",
+                "text": "\/~grunting\/~"
+            },
+            {
+                "id": "attack2",
+                "name": "Attack 2",
+                "sound": "pzeatt01",
+                "text": "\/~grunting\/~"
+            },
+            {
+                "id": "attackHit",
+                "name": "Attack hit",
+                "sound": "pzehit00",
+                "text": "(Psionic Blades)"
+            },
+            {
+                "id": "death",
+                "name": "Death",
+                "sound": "pzedth00",
+                "text": ""
+            }
+        ]
     },
     {
         "id": "Dragoon",
@@ -44,12 +302,134 @@
         "frenchName": "Dragon",
         "fiddleAnimations": null,
         "talkAnimations": null,
-        "sounds": {
-            "id": "death",
-            "name": "Death",
-            "sound": "pdrdth00",
-            "text": ""
-        }
+        "sounds": [
+            {
+                "id": "ready",
+                "name": "Ready",
+                "sound": "pdrrdy00",
+                "text": "I have returned."
+            },
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "pdrwht00",
+                "text": "Receiving."
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "pdrwht01",
+                "text": "Awaiting instructions."
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "pdrwht02",
+                "text": "Transmit."
+            },
+            {
+                "id": "acknowledgement4",
+                "name": "Acknowledgement 4",
+                "sound": "pdrwht03",
+                "text": "Input command."
+            },
+            {
+                "id": "acknowledgement5",
+                "name": "Acknowledgement 5",
+                "sound": "pdrwht04",
+                "text": "Golas soos. (Khalani)"
+            },
+            {
+                "id": "acknowledgement6",
+                "name": "Acknowledgement 6",
+                "sound": "pdrwht05",
+                "text": "Zok Telagas. (Khalani)"
+            },
+            {
+                "id": "acknowledgement7",
+                "name": "Acknowledgement 7",
+                "sound": "pdrwht06",
+                "text": "Make use of me."
+            },
+            {
+                "id": "acknowledgement8",
+                "name": "Acknowledgement 8",
+                "sound": "pdrwht07",
+                "text": "I am needed."
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "pdryes00",
+                "text": "Confirmed."
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "pdryes01",
+                "text": "Initiating."
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "pdryes02",
+                "text": "Luktai. (Khalani)"
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "pdryes03",
+                "text": "Ne Chola. (Khalani)"
+            },
+            {
+                "id": "affirmation5",
+                "name": "Affirmation 5",
+                "sound": "pdryes04",
+                "text": "Commencing."
+            },
+            {
+                "id": "affirmation6",
+                "name": "Affirmation 6",
+                "sound": "pdryes05",
+                "text": "Nagatsoon. (Khalani)"
+            },
+            {
+                "id": "affirmation7",
+                "name": "Affirmation 7",
+                "sound": "pdryes06",
+                "text": "For vengeance."
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "pdrpss00",
+                "text": "Unauthorized transmission."
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "pdrpss01",
+                "text": "Incorrect protocol."
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "pdrpss02",
+                "text": "*beep beep* Drop your weapon\u2014you have fifteen seconds to comply."
+            },
+            {
+                "id": "annoyance4",
+                "name": "Annoyance 4",
+                "sound": "pdrpss03",
+                "text": "Five, four, three two one *Phase Disruptor blast*"
+            },
+            {
+                "id": "death",
+                "name": "Death",
+                "sound": "pdrdth00",
+                "text": ""
+            }
+        ]
     },
     {
         "id": "Templar",
@@ -57,12 +437,128 @@
         "frenchName": "Templier",
         "fiddleAnimations": null,
         "talkAnimations": null,
-        "sounds": {
-            "id": "death",
-            "name": "Death",
-            "sound": "ptedth00",
-            "text": ""
-        }
+        "sounds": [
+            {
+                "id": "ready",
+                "name": "Ready",
+                "sound": "pterdy00",
+                "text": "Khassar de Templari. (Khalani)"
+            },
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "ptewht00",
+                "text": "Your thoughts?"
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "ptewht01",
+                "text": "Saragh'ha. (Khalani)"
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "ptewht02",
+                "text": "I heed thy call."
+            },
+            {
+                "id": "acknowledgement4",
+                "name": "Acknowledgement 4",
+                "sound": "ptewht03",
+                "text": "State thy bidding."
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "pteyes00",
+                "text": "You think as I do."
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "pteyes01",
+                "text": "It shall be done."
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "pteyes02",
+                "text": "My path is set."
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "pteyes03",
+                "text": "Ee'tahk. (Khalani)"
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "ptepss00",
+                "text": "Your thoughts betray you."
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "ptepss01",
+                "text": "I see you have an appetite for destruction."
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "ptepss02",
+                "text": "And you learn to use your illusion."
+            },
+            {
+                "id": "annoyance4",
+                "name": "Annoyance 4",
+                "sound": "ptepss03",
+                "text": "But I find your lack of control disturbing."
+            },
+            {
+                "id": "move",
+                "name": "Move?",
+                "sound": "ptemov00",
+                "text": ""
+            },
+            {
+                "id": "hallucination1",
+                "name": "Hallucination 1",
+                "sound": "ptehal00",
+                "text": ""
+            },
+            {
+                "id": "hallucination2",
+                "name": "Hallucination 2",
+                "sound": "ptehal01",
+                "text": ""
+            },
+            {
+                "id": "storm1",
+                "name": "Storm 1",
+                "sound": "ptesto00",
+                "text": ""
+            },
+            {
+                "id": "storm2",
+                "name": "Storm 2",
+                "sound": "ptesto01",
+                "text": ""
+            },
+            {
+                "id": "summon",
+                "name": "Archon Summon",
+                "sound": "ptesum00",
+                "text": ""
+            },
+            {
+                "id": "death",
+                "name": "Death",
+                "sound": "ptedth00",
+                "text": ""
+            }
+        ]
     },
     {
         "id": "Archon",
@@ -70,12 +566,98 @@
         "frenchName": "Archonte",
         "fiddleAnimations": null,
         "talkAnimations": null,
-        "sounds": {
-            "id": "death",
-            "name": "Death",
-            "sound": "pardth00",
-            "text": ""
-        }
+        "sounds": [
+            {
+                "id": "ready",
+                "name": "Ready",
+                "sound": "parrdy00",
+                "text": "The merging is complete."
+            },
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "parwht00",
+                "text": "We burn."
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "parwht01",
+                "text": "We need focus."
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "parwht02",
+                "text": "Thorasoh'cahp. (Khalani)"
+            },
+            {
+                "id": "acknowledgement4",
+                "name": "Acknowledgement 4",
+                "sound": "parwht03",
+                "text": "Power overwhelming."
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "paryes00",
+                "text": "Destroy."
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "paryes01",
+                "text": "Annihilate."
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "paryes02",
+                "text": "Obliterate."
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "paryes03",
+                "text": "Eradicate."
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "parpss00",
+                "text": "It all looks so different on this side."
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "parpss01",
+                "text": "Break on through."
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "parpss02",
+                "text": "It's beautiful."
+            },
+            {
+                "id": "annoyance4",
+                "name": "Annoyance 4",
+                "sound": "parpss03",
+                "text": "They should have sent a poet."
+            },
+            {
+                "id": "mystery",
+                "name": "???",
+                "sound": "parmin00",
+                "text": ""
+            },
+            {
+                "id": "death",
+                "name": "Death",
+                "sound": "pardth00",
+                "text": ""
+            }
+        ]
     },
     {
         "id": "DarkTemplar",
@@ -83,12 +665,92 @@
         "frenchName": "Templier Noir",
         "fiddleAnimations": "[\"Fid00\",\"Fid01\",\"Fid02\"]",
         "talkAnimations": null,
-        "sounds": {
-            "id": "death",
-            "name": "Death",
-            "sound": "pdtdth00",
-            "text": ""
-        }
+        "sounds": [
+            {
+                "id": "ready",
+                "name": "Ready",
+                "sound": "pdtrdy00",
+                "text": "Adun Toridas!"
+            },
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "pdtwht00",
+                "text": "Yes?"
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "pdtwht01",
+                "text": "Zerashk gulida! (Khalani)"
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "pdtwht02",
+                "text": "I'm waiting."
+            },
+            {
+                "id": "acknowledgement4",
+                "name": "Acknowledgement 4",
+                "sound": "pdtwht03",
+                "text": "Neraz Gulio. (Khalani)"
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "pdtyes00",
+                "text": "For Aiur."
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "pdtyes01",
+                "text": "Ner'mah! (Khalani)"
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "pdtyes02",
+                "text": "So be it."
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "pdtyes03",
+                "text": "Very well."
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "pdtpss00",
+                "text": "Your taunts are ill-advised, Templar."
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "pdtpss01",
+                "text": "Do not provoke me to violence."
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "pdtpss02",
+                "text": "You could no more evade my wrath\u2026"
+            },
+            {
+                "id": "annoyance4",
+                "name": "Annoyance 4",
+                "sound": "pdtpss03",
+                "text": "\u2026than you could your own shadow."
+            },
+            {
+                "id": "death",
+                "name": "Death",
+                "sound": "pdtdth00",
+                "text": ""
+            }
+        ]
     },
     {
         "id": "DarkArchon",
@@ -96,12 +758,110 @@
         "frenchName": "Archonte Noir",
         "fiddleAnimations": null,
         "talkAnimations": null,
-        "sounds": {
-            "id": "mindControl",
-            "name": "Mind Control",
-            "sound": "mind",
-            "text": ""
-        }
+        "sounds": [
+            {
+                "id": "ready",
+                "name": "Ready",
+                "sound": "pdardy00",
+                "text": "We are as one."
+            },
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "pdawht00",
+                "text": "Must have energy."
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "pdawht01",
+                "text": "We hear you."
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "pdawht02",
+                "text": "Thoughts in chaos."
+            },
+            {
+                "id": "acknowledgement4",
+                "name": "Acknowledgement 4",
+                "sound": "pdawht03",
+                "text": "Must feed."
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "pdayes00",
+                "text": "Will go."
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "pdayes01",
+                "text": "Oblivion awaits."
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "pdayes02",
+                "text": "We move."
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "pdayes03",
+                "text": ""
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "pdapss00",
+                "text": "Must consume\u2026"
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "pdapss01",
+                "text": "\u2026or oblivion will take us."
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "pdapss02",
+                "text": "Adun, save me."
+            },
+            {
+                "id": "annoyance4",
+                "name": "Annoyance 4",
+                "sound": "pdapss03",
+                "text": "Darkness overpowering."
+            },
+            {
+                "id": "feedback",
+                "name": "Feedback",
+                "sound": "feedback",
+                "text": ""
+            },
+            {
+                "id": "attack",
+                "name": "Maelstrom Attack",
+                "sound": "paraattk",
+                "text": ""
+            },
+            {
+                "id": "hit",
+                "name": "Maelstrom Hit",
+                "sound": "parahit",
+                "text": ""
+            },
+            {
+                "id": "mindControl",
+                "name": "Mind Control",
+                "sound": "mind",
+                "text": ""
+            }
+        ]
     },
     {
         "id": "Shuttle",
@@ -109,12 +869,128 @@
         "frenchName": "Transport",
         "fiddleAnimations": null,
         "talkAnimations": null,
-        "sounds": {
-            "id": "death",
-            "name": "Death",
-            "sound": "pshdth00",
-            "text": ""
-        }
+        "sounds": [
+            {
+                "id": "ready",
+                "name": "Ready",
+                "sound": "pshrdy00",
+                "text": "(Robotic)"
+            },
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "pshwht00",
+                "text": "(Robotic)"
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "pshwht01",
+                "text": "(Robotic)"
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "pshwht02",
+                "text": "(Robotic)"
+            },
+            {
+                "id": "acknowledgement4",
+                "name": "Acknowledgement 4",
+                "sound": "pshwht03",
+                "text": "(Robotic)"
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "pshyes00",
+                "text": "(Robotic)"
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "pshyes01",
+                "text": "(Robotic)"
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "pshyes02",
+                "text": "(Robotic)"
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "pshyes03",
+                "text": "(Robotic)"
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "pshpss00",
+                "text": "(Robotic)"
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "pshpss01",
+                "text": "(Robotic)"
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "pshpss02",
+                "text": "(Robotic)"
+            },
+            {
+                "id": "annoyance4",
+                "name": "Annoyance 4",
+                "sound": "pshpss03",
+                "text": "(Robotic)"
+            },
+            {
+                "id": "annoyance5",
+                "name": "Annoyance 5",
+                "sound": "pshpss04",
+                "text": "(Robotic)"
+            },
+            {
+                "id": "build1",
+                "name": "Build 1",
+                "sound": "pshbld00",
+                "text": ""
+            },
+            {
+                "id": "build2",
+                "name": "Build 2",
+                "sound": "pshbld01",
+                "text": ""
+            },
+            {
+                "id": "build3",
+                "name": "Build 3",
+                "sound": "pshbld02",
+                "text": ""
+            },
+            {
+                "id": "build4",
+                "name": "Build 4",
+                "sound": "pshbld03",
+                "text": ""
+            },
+            {
+                "id": "build5",
+                "name": "Build 5",
+                "sound": "pshbld04",
+                "text": ""
+            },
+            {
+                "id": "death",
+                "name": "Death",
+                "sound": "pshdth00",
+                "text": ""
+            }
+        ]
     },
     {
         "id": "Reaver",
@@ -122,12 +998,86 @@
         "frenchName": "Destructeur",
         "fiddleAnimations": null,
         "talkAnimations": null,
-        "sounds": {
-            "id": "death",
-            "name": "Death",
-            "sound": "ptrdth00",
-            "text": "(Robotic)"
-        }
+        "sounds": [
+            {
+                "id": "ready",
+                "name": "Ready",
+                "sound": "ptrrdy00",
+                "text": "(Robotic)"
+            },
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "ptrwht00",
+                "text": "(Robotic)"
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "ptrwht01",
+                "text": "(Robotic)"
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "ptrwht02",
+                "text": "(Robotic)"
+            },
+            {
+                "id": "acknowledgement4",
+                "name": "Acknowledgement 4",
+                "sound": "ptrwht03",
+                "text": "(Robotic)"
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "ptryes00",
+                "text": "(Robotic)"
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "ptryes01",
+                "text": "(Robotic)"
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "ptryes02",
+                "text": "(Robotic)"
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "ptryes03",
+                "text": "(Robotic)"
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "ptrpss00",
+                "text": "(Robotic)"
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "ptrpss01",
+                "text": "(Robotic)"
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "ptrpss02",
+                "text": "(Robotic)"
+            },
+            {
+                "id": "death",
+                "name": "Death",
+                "sound": "ptrdth00",
+                "text": "(Robotic)"
+            }
+        ]
     },
     {
         "id": "Observer",
@@ -135,12 +1085,80 @@
         "frenchName": "",
         "fiddleAnimations": null,
         "talkAnimations": null,
-        "sounds": {
-            "id": "death2",
-            "name": "Death 2",
-            "sound": "pwidth01",
-            "text": "(Robotic)"
-        }
+        "sounds": [
+            {
+                "id": "ready",
+                "name": "Ready",
+                "sound": "pwirdy00",
+                "text": "(Robotic)"
+            },
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "pwiwht00",
+                "text": "(Robotic)"
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "pwiwht01",
+                "text": "(Robotic)"
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "pwiyes00",
+                "text": "(Robotic)"
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "pwiyes01",
+                "text": "(Robotic)"
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "pwipss00",
+                "text": "I sense a soul in search of answers."
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "pwipss01",
+                "text": "It sounds like a\u2026 *ach* a huge, gargantuan, swollen, bloated mushroom!"
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "pwipss02",
+                "text": "One small step for man, one giant\u2026 *static* STOP POKING ME!"
+            },
+            {
+                "id": "annoyance4",
+                "name": "Annoyance 4",
+                "sound": "pwipss03",
+                "text": "In the Age of Chaos, two factions battle for dominance."
+            },
+            {
+                "id": "annoyance5",
+                "name": "Annoyance 5",
+                "sound": "pwipss04",
+                "text": "Warcraft Zwei, jetzt als exklusivedition mit dem expansion set, four boostern und zauberlehrbuch\u2026"
+            },
+            {
+                "id": "death1",
+                "name": "Death 1",
+                "sound": "pwidth00",
+                "text": "(Robotic)"
+            },
+            {
+                "id": "death2",
+                "name": "Death 2",
+                "sound": "pwidth01",
+                "text": "(Robotic)"
+            }
+        ]
     },
     {
         "id": "Scout",
@@ -148,12 +1166,98 @@
         "frenchName": "Scout",
         "fiddleAnimations": null,
         "talkAnimations": "[\"Tlk00\",\"Tlk01\"]",
-        "sounds": {
-            "id": "death",
-            "name": "Death 1",
-            "sound": "pscdth00",
-            "text": ""
-        }
+        "sounds": [
+            {
+                "id": "ready",
+                "name": "Ready",
+                "sound": "pscrdy00",
+                "text": "Teleport successful."
+            },
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "pscwht00",
+                "text": "Awaiting command."
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "pscwht01",
+                "text": "Standing by."
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "pscwht02",
+                "text": "Contact."
+            },
+            {
+                "id": "acknowledgement4",
+                "name": "Acknowledgement 4",
+                "sound": "pscwht03",
+                "text": "Cho'gal. (Khalani)"
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "pscyes00",
+                "text": "Ki'oss. (Khalani)"
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "pscyes01",
+                "text": "Kokola. (Khalani)"
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "pscyes02",
+                "text": "Locus(?) acknowledged."
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "pscyes03",
+                "text": "It will be done."
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "pscpss00",
+                "text": "Signal unstable."
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "pscpss01",
+                "text": "Psionic link dissipating."
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "pscpss02",
+                "text": "Adjusting neural transmission."
+            },
+            {
+                "id": "annoyance4",
+                "name": "Annoyance 4",
+                "sound": "pscpss03",
+                "text": ""
+            },
+            {
+                "id": "annoyance5",
+                "name": "Annoyance 5",
+                "sound": "pscpss04",
+                "text": "*garbled* \u2026re-engaged."
+            },
+            {
+                "id": "death",
+                "name": "Death 1",
+                "sound": "pscdth00",
+                "text": ""
+            }
+        ]
     },
     {
         "id": "Corsair",
@@ -161,12 +1265,146 @@
         "frenchName": "Corsaire",
         "fiddleAnimations": null,
         "talkAnimations": null,
-        "sounds": {
-            "id": "web",
-            "name": "Disruption Web",
-            "sound": "pcorweb1",
-            "text": ""
-        }
+        "sounds": [
+            {
+                "id": "ready",
+                "name": "Ready",
+                "sound": "pcordy00",
+                "text": "It is a good day to die."
+            },
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "pcowht00",
+                "text": "Ready for battle."
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "pcowht01",
+                "text": "May I be of service?"
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "pcowht02",
+                "text": "I stand ready."
+            },
+            {
+                "id": "acknowledgement4",
+                "name": "Acknowledgement 4",
+                "sound": "pcowht03",
+                "text": "Let us attack."
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "pcoyes00",
+                "text": "Excellent."
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "pcoyes01",
+                "text": "Adun, Toridas! (Khalani)"
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "pcoyes02",
+                "text": "Haha, at last."
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "pcoyes03",
+                "text": "I thought you'd see it my way."
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "pcopss00",
+                "text": "Look at all the\u2026 pretty lights."
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "pcopss01",
+                "text": "I wonder what this button does? *button push* *alarms*"
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "pcopss02",
+                "text": "*alarms* I think this was a\u2026 BIG mistake!"
+            },
+            {
+                "id": "annoyance4",
+                "name": "Annoyance 4",
+                "sound": "pcopss03",
+                "text": "When the moon\u2026 is in the seventh house\u2026"
+            },
+            {
+                "id": "annoyance5",
+                "name": "Annoyance 5",
+                "sound": "pcopss04",
+                "text": "And Jupiter\u2026 is\u2026 umm\u2026"
+            },
+            {
+                "id": "annoyance6",
+                "name": "Annoyance 6",
+                "sound": "pcopss05",
+                "text": "Zefram Cochrane\u2026 is that you?"
+            },
+            {
+                "id": "annoyance7",
+                "name": "Annoyance 7",
+                "sound": "pcopss06",
+                "text": "What did you do to your hair?"
+            },
+            {
+                "id": "hit1",
+                "name": "Hit 1",
+                "sound": "pcorhit1",
+                "text": ""
+            },
+            {
+                "id": "hit2",
+                "name": "Hit 2",
+                "sound": "pcorhit2",
+                "text": ""
+            },
+            {
+                "id": "attack1",
+                "name": "Neutron Flare Attack 1",
+                "sound": "pcorlasr1",
+                "text": ""
+            },
+            {
+                "id": "attack2",
+                "name": "Neutron Flare Attack 2",
+                "sound": "pcorlasr2",
+                "text": ""
+            },
+            {
+                "id": "attack3",
+                "name": "Neutron Flare Attack 3",
+                "sound": "pcorlasr3",
+                "text": ""
+            },
+            {
+                "id": "attack4",
+                "name": "Neutron Flare Attack 4",
+                "sound": "pcorlasr4",
+                "text": ""
+            },
+            {
+                "id": "web",
+                "name": "Disruption Web",
+                "sound": "pcorweb1",
+                "text": ""
+            }
+        ]
     },
     {
         "id": "Arbiter",
@@ -174,12 +1412,128 @@
         "frenchName": "Arbitre",
         "fiddleAnimations": null,
         "talkAnimations": null,
-        "sounds": {
-            "id": "death",
-            "name": "Death",
-            "sound": "pabdth00",
-            "text": ""
-        }
+        "sounds": [
+            {
+                "id": "ready",
+                "name": "Ready",
+                "sound": "pabrdy00",
+                "text": "Warp fields stabilized."
+            },
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "pabwht00",
+                "text": "We feel your presence."
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "pabwht01",
+                "text": "Ju'ros. (Khalani)"
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "pabwht02",
+                "text": "Dunad'wynn. (Khalani)"
+            },
+            {
+                "id": "acknowledgement4",
+                "name": "Acknowledgement 4",
+                "sound": "pabwht03",
+                "text": "We are vigilant."
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "pabyes00",
+                "text": "Nihn'kas Neehn. (Khalani)"
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "pabyes01",
+                "text": "J'tokoh Zohl. (Khalani)"
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "pabyes02",
+                "text": "Gou'ron. (Khalani)"
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "pabyes03",
+                "text": "For the enclave. (pre-Brood War)"
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "pabpss00",
+                "text": "We sense a soul in search of answers."
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "pabpss01",
+                "text": "Do you seek knowledge of time travel?"
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "pabpss02",
+                "text": "We'll take that as a yes."
+            },
+            {
+                "id": "annoyance4",
+                "name": "Annoyance 4",
+                "sound": "pabpss03",
+                "text": "And now for your first lesson. *laughing*"
+            },
+            {
+                "id": "annoyance5",
+                "name": "Annoyance 5",
+                "sound": "pabpss04",
+                "text": "*rapid replay of previous lines backwards* \u2026Do you seek knowledge of time travel?"
+            },
+            {
+                "id": "statis",
+                "name": "Stasis Field",
+                "sound": "pabcag00",
+                "text": ""
+            },
+            {
+                "id": "recall1",
+                "name": "Recall 1",
+                "sound": "pabfol00",
+                "text": ""
+            },
+            {
+                "id": "recall2",
+                "name": "Recall 2",
+                "sound": "pabfol01",
+                "text": ""
+            },
+            {
+                "id": "mystery1",
+                "name": "???",
+                "sound": "pabfol02",
+                "text": ""
+            },
+            {
+                "id": "mystery2",
+                "name": "???",
+                "sound": "pabfol03",
+                "text": ""
+            },
+            {
+                "id": "death",
+                "name": "Death",
+                "sound": "pabdth00",
+                "text": ""
+            }
+        ]
     },
     {
         "id": "Carrier",
@@ -187,12 +1541,98 @@
         "frenchName": "Porte-nefs",
         "fiddleAnimations": null,
         "talkAnimations": null,
-        "sounds": {
-            "id": "death2",
-            "name": "Death 2",
-            "sound": "pcadth01",
-            "text": ""
-        }
+        "sounds": [
+            {
+                "id": "ready",
+                "name": "Ready",
+                "sound": "pcardy00",
+                "text": "Carrier has arrived."
+            },
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "pcawht00",
+                "text": "Instructions."
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "pcawht01",
+                "text": "Your command?"
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "pcawht02",
+                "text": "Loh'Klahs? (Khalani)"
+            },
+            {
+                "id": "acknowledgement4",
+                "name": "Acknowledgement 4",
+                "sound": "pcawht03",
+                "text": "Ischk'nu? (Khalani)"
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "pcayes00",
+                "text": "Commencing."
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "pcayes01",
+                "text": "Kokal'tulah! (Khalani)"
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "pcayes02",
+                "text": "Gou'ron. (Khalani)"
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "pcayes03",
+                "text": "Affirmative."
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "pcapss00",
+                "text": "Our enemies are legion!"
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "pcapss01",
+                "text": "And still you procrastinate!"
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "pcapss02",
+                "text": "Command, or you will be relieved."
+            },
+            {
+                "id": "annoyance4",
+                "name": "Annoyance 4",
+                "sound": "pcapss03",
+                "text": "This is not an idle threat."
+            },
+            {
+                "id": "death1",
+                "name": "Death 1",
+                "sound": "pcadth00",
+                "text": ""
+            },
+            {
+                "id": "death2",
+                "name": "Death 2",
+                "sound": "pcadth01",
+                "text": ""
+            }
+        ]
     },
     {
         "id": "Interceptor",
@@ -200,12 +1640,14 @@
         "frenchName": "Intercepteur",
         "fiddleAnimations": null,
         "talkAnimations": null,
-        "sounds": {
-            "id": "launch",
-            "name": "Launch",
-            "sound": "pinlau00",
-            "text": ""
-        }
+        "sounds": [
+            {
+                "id": "launch",
+                "name": "Launch",
+                "sound": "pinlau00",
+                "text": ""
+            }
+        ]
     },
     {
         "id": "FenixZealot",
@@ -213,12 +1655,86 @@
         "frenchName": "Fenix (Disciple)",
         "fiddleAnimations": null,
         "talkAnimations": null,
-        "sounds": {
-            "id": "death",
-            "name": "Death",
-            "sound": "ufedth00",
-            "text": ""
-        }
+        "sounds": [
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "ufewht00",
+                "text": "Executor?"
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "ufewht01",
+                "text": "Your command?"
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "ufewht02",
+                "text": "What would you ask of me?"
+            },
+            {
+                "id": "acknowledgement4",
+                "name": "Acknowledgement 4",
+                "sound": "ufewht03",
+                "text": "I hunger for battle."
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "ufeyes00",
+                "text": "For Aiur!"
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "ufeyes01",
+                "text": "Immediately!"
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "ufeyes02",
+                "text": "Nach nagala! (Khalani)"
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "ufeyes03",
+                "text": "As you will!"
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "ufepss00",
+                "text": "I fear no enemy!"
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "ufepss01",
+                "text": "For the Khala is my strength!"
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "ufepss02",
+                "text": "I fear not death."
+            },
+            {
+                "id": "annoyance4",
+                "name": "Annoyance 4",
+                "sound": "ufepss03",
+                "text": "For our strength is eternal!"
+            },
+            {
+                "id": "death",
+                "name": "Death",
+                "sound": "ufedth00",
+                "text": ""
+            }
+        ]
     },
     {
         "id": "FenixDragoon",
@@ -226,12 +1742,80 @@
         "frenchName": "Fenix (Dragon)",
         "fiddleAnimations": null,
         "talkAnimations": null,
-        "sounds": {
-            "id": "annoyance4",
-            "name": "Annoyance 4",
-            "sound": "ufdpss03",
-            "text": "For our strength is eternal!"
-        }
+        "sounds": [
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "ufdwht00",
+                "text": "Executor?"
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "ufdwht01",
+                "text": "Your command?"
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "ufdwht02",
+                "text": "What would you ask of me?"
+            },
+            {
+                "id": "acknowledgement4",
+                "name": "Acknowledgement 4",
+                "sound": "ufdwht03",
+                "text": "I hunger for battle."
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "ufdyes00",
+                "text": "For Aiur!"
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "ufdyes01",
+                "text": "Immediately!"
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "ufdyes02",
+                "text": "Nach nagala! (Khalani)"
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "ufdyes03",
+                "text": "As you will!"
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "ufdpss00",
+                "text": "I fear no enemy!"
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "ufdpss01",
+                "text": "For the Khala is my strength!"
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "ufdpss02",
+                "text": "I fear not death."
+            },
+            {
+                "id": "annoyance4",
+                "name": "Annoyance 4",
+                "sound": "ufdpss03",
+                "text": "For our strength is eternal!"
+            }
+        ]
     },
     {
         "id": "Tassadar",
@@ -239,12 +1823,86 @@
         "frenchName": "Tassadar",
         "fiddleAnimations": "[\"Fid00\",\"Fid01\",\"Fid02\"]",
         "talkAnimations": "[\"Tlk00\",\"Tlk01\"]",
-        "sounds": {
-            "id": "death",
-            "name": "Death",
-            "sound": "utadth00",
-            "text": ""
-        }
+        "sounds": [
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "utawht00",
+                "text": "Yes, Executor?"
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "utawht01",
+                "text": "I hear you."
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "utawht02",
+                "text": "How may I help?"
+            },
+            {
+                "id": "acknowledgement4",
+                "name": "Acknowledgement 4",
+                "sound": "utawht03",
+                "text": "Your will?"
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "utayes00",
+                "text": "Of course."
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "utayes01",
+                "text": "It shall be done."
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "utayes02",
+                "text": "For Adun!"
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "utayes03",
+                "text": "Terra Khala! (Khalani)"
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "utapss00",
+                "text": "Speak quickly, Executor!"
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "utapss01",
+                "text": "I don't have time for games!"
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "utapss02",
+                "text": "I was Executor long before you."
+            },
+            {
+                "id": "annoyance4",
+                "name": "Annoyance 4",
+                "sound": "utapss03",
+                "text": "So do not try my patience!"
+            },
+            {
+                "id": "death",
+                "name": "Death",
+                "sound": "utadth00",
+                "text": ""
+            }
+        ]
     },
     {
         "id": "Gantrithor",
@@ -252,12 +1910,80 @@
         "frenchName": "Gantrithor",
         "fiddleAnimations": "[\"Fid00\",\"Fid01\",\"Fid02\"]",
         "talkAnimations": "[\"Tlk00\",\"Tlk01\"]",
-        "sounds": {
-            "id": "annoyance4",
-            "name": "Annoyance 4",
-            "sound": "utcpss03",
-            "text": "So do not try my patience!"
-        }
+        "sounds": [
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "utcwht00",
+                "text": "Yes, Executor?"
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "utcwht01",
+                "text": "I hear you."
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "utcwht02",
+                "text": "How may I help?"
+            },
+            {
+                "id": "acknowledgement4",
+                "name": "Acknowledgement 4",
+                "sound": "utcwht03",
+                "text": "Your will?"
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "utcyes00",
+                "text": "Of course."
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "utcyes01",
+                "text": "It shall be done."
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "utcyes02",
+                "text": "For Adun!"
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "utcyes03",
+                "text": "Terra Khala! (Khalani)"
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "utcpss00",
+                "text": "Speak quickly, Executor!"
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "utcpss01",
+                "text": "I don't have time for games!"
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "utcpss02",
+                "text": "I was Executor long before you."
+            },
+            {
+                "id": "annoyance4",
+                "name": "Annoyance 4",
+                "sound": "utcpss03",
+                "text": "So do not try my patience!"
+            }
+        ]
     },
     {
         "id": "Zeratul",
@@ -265,12 +1991,86 @@
         "frenchName": "Zeratul",
         "fiddleAnimations": null,
         "talkAnimations": null,
-        "sounds": {
-            "id": "death",
-            "name": "Death",
-            "sound": "uzedth00",
-            "text": ""
-        }
+        "sounds": [
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "uzewht00",
+                "text": "Hmmm?"
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "uzewht01",
+                "text": "You address me?"
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "uzewht02",
+                "text": "Your orders, Templar?"
+            },
+            {
+                "id": "acknowledgement4",
+                "name": "Acknowledgement 4",
+                "sound": "uzewht03",
+                "text": "Khas Nara'da! (Khalani)"
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "uzeyes00",
+                "text": "I do this for Aiur."
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "uzeyes01",
+                "text": "So be it."
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "uzeyes02",
+                "text": "It will be done."
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "uzeyes03",
+                "text": "En Taro Adun! (Khalani)"
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "uzepss00",
+                "text": "You have persecuted us for generations\u2026"
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "uzepss01",
+                "text": "And now you beg us to aid you?"
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "uzepss02",
+                "text": "We will do what we must."
+            },
+            {
+                "id": "annoyance4",
+                "name": "Annoyance 4",
+                "sound": "uzepss03",
+                "text": "But we do it for Aiur\u2014not you."
+            },
+            {
+                "id": "death",
+                "name": "Death",
+                "sound": "uzedth00",
+                "text": ""
+            }
+        ]
     },
     {
         "id": "Artanis",
@@ -278,11 +2078,91 @@
         "frenchName": "Artanis",
         "fiddleAnimations": null,
         "talkAnimations": null,
-        "sounds": {
-            "id": "annoyance6",
-            "name": "Annoyance 6",
-            "sound": "patpss05",
-            "text": "I know it's not 3D!"
-        }
+        "sounds": [
+            {
+                "id": "acknowledgement1",
+                "name": "Acknowledgement 1",
+                "sound": "patwht00",
+                "text": "I am ready."
+            },
+            {
+                "id": "acknowledgement2",
+                "name": "Acknowledgement 2",
+                "sound": "patwht01",
+                "text": "Direct my wrath."
+            },
+            {
+                "id": "acknowledgement3",
+                "name": "Acknowledgement 3",
+                "sound": "patwht02",
+                "text": "Yes, Executor."
+            },
+            {
+                "id": "acknowledgement4",
+                "name": "Acknowledgement 4",
+                "sound": "patwht03",
+                "text": "State your will."
+            },
+            {
+                "id": "affirmation1",
+                "name": "Affirmation 1",
+                "sound": "patyes00",
+                "text": "For Aiur."
+            },
+            {
+                "id": "affirmation2",
+                "name": "Affirmation 2",
+                "sound": "patyes01",
+                "text": "Consider it done."
+            },
+            {
+                "id": "affirmation3",
+                "name": "Affirmation 3",
+                "sound": "patyes02",
+                "text": "Indeed."
+            },
+            {
+                "id": "affirmation4",
+                "name": "Affirmation 4",
+                "sound": "patyes03",
+                "text": "I concur."
+            },
+            {
+                "id": "annoyance1",
+                "name": "Annoyance 1",
+                "sound": "patpss00",
+                "text": "Explain this odd behavior."
+            },
+            {
+                "id": "annoyance2",
+                "name": "Annoyance 2",
+                "sound": "patpss01",
+                "text": "Stop poking me!"
+            },
+            {
+                "id": "annoyance3",
+                "name": "Annoyance 3",
+                "sound": "patpss02",
+                "text": "What do I look like\u2014an Orc?"
+            },
+            {
+                "id": "annoyance4",
+                "name": "Annoyance 4",
+                "sound": "patpss03",
+                "text": "This is not Warcraft in space!"
+            },
+            {
+                "id": "annoyance5",
+                "name": "Annoyance 5",
+                "sound": "patpss04",
+                "text": "It's much more sophisticated!"
+            },
+            {
+                "id": "annoyance6",
+                "name": "Annoyance 6",
+                "sound": "patpss05",
+                "text": "I know it's not 3D!"
+            }
+        ]
     }
 ]
