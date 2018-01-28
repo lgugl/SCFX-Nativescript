@@ -11,7 +11,7 @@ import { Unit } from "./../../shared/unit";
 })
 export class FactionComponent implements OnInit {
     id: string;
-    units: Unit[] = [];// => Array<Unit> = []
+    units: Unit[];// => Array<Unit>
 
     constructor(
         private route: ActivatedRoute,

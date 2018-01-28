@@ -1,6 +1,6 @@
 <StackLayout>
-    <Label [text]="id"></Label>
-    <ListView [items]="unit">
+    <Label [text]="faction + ' | ' + unit.id" textWrap="true"></Label>
+    <ListView [items]="sounds">
         <ng-template let-item="item">
             <Label [text]="item.name"></Label>
         </ng-template>

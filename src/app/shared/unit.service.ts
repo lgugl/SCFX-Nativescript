@@ -22,12 +22,12 @@ export class UnitService {
         return this.units;
     }
 
-    getUnit(id: String): Unit {
-        this.units.forEach(unit => {
+    getUnit(id: string): Unit {
+        for (var unit of this.units) {
             if (unit.id == id) {
                 return unit;
             }
-        });
+        }
         return null;
     }
 }

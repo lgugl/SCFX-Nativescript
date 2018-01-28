@@ -3,6 +3,7 @@ import { ActivatedRoute } from "@angular/router";
 
 import { Unit } from "./../../shared/unit";
 import { UnitService } from "./../../shared/unit.service";
+import { Sound } from "./../../shared/sound";
 
 @Component({
     selector: "unit",
@@ -10,8 +11,9 @@ import { UnitService } from "./../../shared/unit.service";
     templateUrl: "./unit.html"
 })
 export class UnitComponent implements OnInit {
-    id: String;
+    faction: string;
     unit: Unit;
+    sounds: Array<Sound>;
 
     constructor(
         private route: ActivatedRoute,
@@ -19,8 +21,9 @@ export class UnitComponent implements OnInit {
     ) {}
 
     ngOnInit() {
-        this.id = this.route.snapshot.params['id'];
-        var faction: String = this.route.snapshot.params['faction'];
-        this.unit = this.unitService.loadFaction(faction).getUnit(this.id);
+        var id = this.route.snapshot.params['id'];
+        this.faction = this.route.snapshot.params['faction'];
+        this.unit = this.unitService.loadFaction(this.faction).getUnit(id);
+        this.sounds = this.unit.sounds;
     }
 }
