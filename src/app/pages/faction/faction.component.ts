@@ -10,7 +10,7 @@ import { Unit } from "./../../shared/unit";
   templateUrl: "./faction.html"
 })
 export class FactionComponent implements OnInit {
-    id: String;
+    id: string;
     units: Unit[] = [];// => Array<Unit> = []
 
     constructor(

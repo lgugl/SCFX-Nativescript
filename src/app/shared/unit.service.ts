@@ -7,7 +7,7 @@ import { Unit } from "./unit";
 export class UnitService {
     private units: Array<Unit> = [];
 
-    loadFaction(faction: String): this {
+    loadFaction(faction: string): this {
         var app = fs.knownFolders.currentApp(),
             file = fs.path.normalize(app.path + '/assets/' + faction + '.json');
         if (fs.File.exists(file)) {
