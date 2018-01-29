@@ -1,4 +1,4 @@
-import { Injectable, Self } from "@angular/core";
+import { Injectable } from "@angular/core";
 import * as fs from "tns-core-modules/file-system";
 
 import { Unit } from "./unit";

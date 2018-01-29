@@ -6,6 +6,7 @@ import { AppComponent } from "./app.component";
 import { routes, navigatableComponents } from "./app.routing";
 
 import { UnitService } from "./shared/unit.service";
+import { SoundService } from "./shared/sound.service";
 
 @NgModule({
     imports: [
@@ -21,7 +22,8 @@ import { UnitService } from "./shared/unit.service";
         AppComponent
     ],
     providers: [
-        UnitService
+        UnitService,
+        SoundService
     ]
 })
 export class AppModule { }

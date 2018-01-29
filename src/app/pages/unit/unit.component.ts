@@ -4,8 +4,7 @@ import { ActivatedRoute } from "@angular/router";
 import { Unit } from "./../../shared/unit";
 import { UnitService } from "./../../shared/unit.service";
 import { Sound } from "./../../shared/sound";
-
-var SoundModule = require("nativescript-sound");
+import { SoundService } from "./../../shared/sound.service";
 
 @Component({
     selector: "unit",
@@ -20,7 +19,8 @@ export class UnitComponent implements OnInit {
 
     constructor(
         private route: ActivatedRoute,
-        private unitService: UnitService
+        private unitService: UnitService,
+        private soundService: SoundService
     ) {}
 
     ngOnInit() {
@@ -28,12 +28,14 @@ export class UnitComponent implements OnInit {
         this.faction = this.route.snapshot.params['faction'];
         this.unit = this.unitService.loadFaction(this.faction).getUnit(id);
         this.sounds = this.unit.sounds;
-        this.sounds.forEach(sound => {
-            this.soundFiles[sound.id] = SoundModule.create('~/assets/sounds/' + sound.sound + '.ogg');
-        });
+        this.soundService.preload(id, this.faction);
     }
 
-    playSound(soundId: string) {
-        this.soundFiles[soundId].play();
+    playSound(unitId: string, soundId: string) {
+        try {
+            this.soundService.soundFiles[unitId][soundId].play();
+        } catch(e) {
+            console.error("Unknown sound");
+        }
     }
 }
