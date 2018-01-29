@@ -26,16 +26,12 @@ export class UnitComponent implements OnInit {
     ngOnInit() {
         var id = this.route.snapshot.params['id'];
         this.faction = this.route.snapshot.params['faction'];
-        this.unit = this.unitService.loadFaction(this.faction).getUnit(id);
+        this.unit = this.unitService.getUnit(id);
         this.sounds = this.unit.sounds;
-        this.soundService.preload(id, this.faction);
+        this.soundService.preload(id);
     }
 
     playSound(unitId: string, soundId: string) {
-        try {
-            this.soundService.soundFiles[unitId][soundId].play();
-        } catch(e) {
-            console.error("Unknown sound");
-        }
+        this.soundService.play(unitId, soundId);
     }
 }

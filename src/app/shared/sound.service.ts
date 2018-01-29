@@ -12,14 +12,22 @@ export class SoundService {
 
     constructor(private unitService: UnitService) {}
 
-    preload(unitId: string, faction: string): void {
+    preload(unitId: string): void {
         if (this.soundFiles[unitId] !== undefined) {
             return;
         }
         this.soundFiles[unitId] = {};
-        var unit = this.unitService.loadFaction(faction).getUnit(unitId);
+        var unit = this.unitService.getUnit(unitId);
         unit.sounds.forEach(sound => {
             this.soundFiles[unitId][sound.id] = SoundModule.create('~/assets/sounds/' + sound.sound + '.ogg');
         });
+    }
+
+    play(unitId: string, soundId: string) {
+        try {
+            this.soundFiles[unitId][soundId].play();
+        } catch(e) {
+            console.error("Unable to play sound", soundId, "for unit", unitId);
+        }
     }
 }

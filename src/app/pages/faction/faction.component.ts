@@ -20,6 +20,6 @@ export class FactionComponent implements OnInit {
 
     ngOnInit() {
         this.id = this.route.snapshot.params['id'];
-        this.units = this.unitService.loadFaction(this.id).getUnits();
+        this.units = this.unitService.getUnits(this.id);
     }
 }

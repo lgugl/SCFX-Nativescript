@@ -26,4 +26,9 @@ import { SoundService } from "./shared/sound.service";
         SoundService
     ]
 })
-export class AppModule { }
+export class AppModule {
+    constructor(
+        // only to preload faction json files (see UnitService constructor)
+        private unitService: UnitService
+    ) {}
+}
