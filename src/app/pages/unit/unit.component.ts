@@ -15,7 +15,6 @@ export class UnitComponent implements OnInit {
     faction: string;
     unit: Unit;
     sounds: Array<Sound>;
-    soundFiles = {};
 
     constructor(
         private route: ActivatedRoute,

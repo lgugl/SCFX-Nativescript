@@ -8,17 +8,18 @@ import { UnitService } from "./unit.service";
 
 @Injectable()
 export class SoundService {
-    soundFiles = {};
+    private soundFiles = {};
 
     constructor(private unitService: UnitService) {}
 
     preload(unitId: string): void {
+        // don't preload if already in memory
         if (this.soundFiles[unitId] !== undefined) {
             return;
         }
         this.soundFiles[unitId] = {};
         var unit = this.unitService.getUnit(unitId);
-        unit.sounds.forEach(sound => {
+        unit && unit.sounds.forEach(sound => {
             this.soundFiles[unitId][sound.id] = SoundModule.create('~/assets/sounds/' + sound.sound + '.ogg');
         });
     }
