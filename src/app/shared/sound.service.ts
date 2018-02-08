@@ -1,34 +1,31 @@
 import { Injectable } from "@angular/core";
 import * as fs from "tns-core-modules/file-system";
-var SoundModule = require("nativescript-sound");
+import { TNSPlayer } from "nativescript-audio";
 
 import { Sound } from "./sound";
-import { Unit } from "./unit";
-import { UnitService } from "./unit.service";
 
 @Injectable()
 export class SoundService {
-    private soundFiles = {};
+    private player: TNSPlayer;
 
-    constructor(private unitService: UnitService) {}
-
-    preload(unitId: string): void {
-        // don't preload if already in memory
-        if (this.soundFiles[unitId] !== undefined) {
-            return;
-        }
-        this.soundFiles[unitId] = {};
-        var unit = this.unitService.getUnit(unitId);
-        unit && unit.sounds.forEach(sound => {
-            this.soundFiles[unitId][sound.id] = SoundModule.create('~/assets/sounds/' + sound.sound + '.ogg');
-        });
+    constructor() {
+        this.player = new TNSPlayer();
+        this.player.debug = false;
     }
 
-    play(unitId: string, soundId: string) {
-        try {
-            this.soundFiles[unitId][soundId].play();
-        } catch(e) {
-            console.error("Unable to play sound", soundId, "for unit", unitId);
-        }
+    play(soundFile: string) {
+        this.player.playFromFile({
+            audioFile: "~/assets/sounds/" + soundFile + ".ogg",
+            loop: false,
+            completeCallback: (args: any) => {
+                this.player.dispose();
+            },
+            errorCallback: (args: any) => {
+                console.error("sound error:", args.error);
+            }
+        })
+        .catch(function() {
+            console.error("Unable to play sound", soundFile);
+        });
     }
 }

@@ -27,10 +27,9 @@ export class UnitComponent implements OnInit {
         this.faction = this.route.snapshot.params['faction'];
         this.unit = this.unitService.getUnit(id);
         this.sounds = this.unit.sounds;
-        this.soundService.preload(id);
     }
 
-    playSound(unitId: string, soundId: string) {
-        this.soundService.play(unitId, soundId);
+    playSound(soundFile: string) {
+        this.soundService.play(soundFile);
     }
 }
