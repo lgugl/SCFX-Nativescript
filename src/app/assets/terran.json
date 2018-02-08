@@ -157,7 +157,7 @@
                 "id": "affirmation5",
                 "name": "Affirmation 5",
                 "sound": "tcvyes04",
-                "text": "Alright."
+                "text": "Sure thing."
             },
             {
                 "id": "annoyance1",
@@ -635,7 +635,7 @@
     {
         "id": "Medic",
         "name": "Medic",
-        "frenchName": "Officier, m\u00e9dical",
+        "frenchName": "Officier m\u00e9dical",
         "fiddleAnimations": null,
         "talkAnimations": null,
         "sounds": [
