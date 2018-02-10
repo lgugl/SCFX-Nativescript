@@ -96,8 +96,8 @@
         "id": "Civilian",
         "name": "Civilian",
         "frenchName": "Civil",
-        "fiddleAnimations": "[\"Fid00\",\"Fid01\",\"Fid02\"]",
-        "talkAnimations": "[]",
+        "fiddleAnimations": ["Fid00","Fid01","Fid02"],
+        "talkAnimations": [],
         "sounds": [
             {
                 "id": "ready",
@@ -502,7 +502,7 @@
         "name": "Firebat",
         "frenchName": "Flammeur",
         "fiddleAnimations": null,
-        "talkAnimations": "[\"Tlk00\",\"Tlk01\"]",
+        "talkAnimations": ["Tlk00","Tlk01"],
         "sounds": [
             {
                 "id": "ready",
@@ -796,7 +796,7 @@
         "name": "Ghost",
         "frenchName": "Fantome",
         "fiddleAnimations": null,
-        "talkAnimations": "[\"Tlk00\"]",
+        "talkAnimations": ["Tlk00"],
         "sounds": [
             {
                 "id": "ready",
@@ -907,7 +907,7 @@
         "name": "Vulture",
         "frenchName": "Vautour",
         "fiddleAnimations": null,
-        "talkAnimations": "[\"Tlk00\",\"Tlk01\"]",
+        "talkAnimations": ["Tlk00","Tlk01"],
         "sounds": [
             {
                 "id": "ready",
@@ -1116,8 +1116,8 @@
         "id": "Goliath",
         "name": "Goliath",
         "frenchName": "Goliath",
-        "fiddleAnimations": "[\"Fid00\",\"Fid01\",\"Fid02\"]",
-        "talkAnimations": "[\"Tlk00\",\"Tlk01\"]",
+        "fiddleAnimations": ["Fid00","Fid01","Fid02"],
+        "talkAnimations": ["Tlk00","Tlk01"],
         "sounds": [
             {
                 "id": "ready",
@@ -1221,7 +1221,7 @@
         "id": "Wraith",
         "name": "Wraith",
         "frenchName": "Ombre",
-        "fiddleAnimations": "[\"Fid00\",\"Fid01\",\"Fid02\"]",
+        "fiddleAnimations": ["Fid00","Fid01","Fid02"],
         "talkAnimations": null,
         "sounds": [
             {

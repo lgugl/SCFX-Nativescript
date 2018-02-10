@@ -189,8 +189,8 @@
         "id": "Zealot",
         "name": "Zealot",
         "frenchName": "Disciple",
-        "fiddleAnimations": "[\"Fid00\",\"Fid01\",\"Fid02\"]",
-        "talkAnimations": "[\"Tlk00\",\"Tlk01\"]",
+        "fiddleAnimations": ["Fid00","Fid01","Fid02"],
+        "talkAnimations": ["Tlk00","Tlk01"],
         "sounds": [
             {
                 "id": "ready",
@@ -663,7 +663,7 @@
         "id": "DarkTemplar",
         "name": "Dark Templar",
         "frenchName": "Templier Noir",
-        "fiddleAnimations": "[\"Fid00\",\"Fid01\",\"Fid02\"]",
+        "fiddleAnimations": ["Fid00","Fid01","Fid02"],
         "talkAnimations": null,
         "sounds": [
             {
@@ -1165,7 +1165,7 @@
         "name": "Scout",
         "frenchName": "Scout",
         "fiddleAnimations": null,
-        "talkAnimations": "[\"Tlk00\",\"Tlk01\"]",
+        "talkAnimations": ["Tlk00","Tlk01"],
         "sounds": [
             {
                 "id": "ready",
@@ -1821,8 +1821,8 @@
         "id": "Tassadar",
         "name": "Tassadar",
         "frenchName": "Tassadar",
-        "fiddleAnimations": "[\"Fid00\",\"Fid01\",\"Fid02\"]",
-        "talkAnimations": "[\"Tlk00\",\"Tlk01\"]",
+        "fiddleAnimations": ["Fid00","Fid01","Fid02"],
+        "talkAnimations": ["Tlk00","Tlk01"],
         "sounds": [
             {
                 "id": "acknowledgement1",
@@ -1908,8 +1908,8 @@
         "id": "Gantrithor",
         "name": "Gantrithor (Tas' Carrier)",
         "frenchName": "Gantrithor",
-        "fiddleAnimations": "[\"Fid00\",\"Fid01\",\"Fid02\"]",
-        "talkAnimations": "[\"Tlk00\",\"Tlk01\"]",
+        "fiddleAnimations": ["Fid00","Fid01","Fid02"],
+        "talkAnimations": ["Tlk00","Tlk01"],
         "sounds": [
             {
                 "id": "acknowledgement1",

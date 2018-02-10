@@ -35,10 +35,17 @@ export class UnitService {
         for (let faction in this.units) {
             for (let unit of this.units[faction]) {
                 if (unit.id == id) {
-                    return unit;
+                    return this.setAnimations(unit);
                 }
             }
         }
         return null;
+    }
+
+    /** set default animation values if not returned by the config */
+    setAnimations(unit: Unit): Unit {
+        unit.fiddleAnimations = unit.fiddleAnimations || ["Fid00", "Fid01", "Fid02", "Fid03"];
+        unit.talkAnimations = unit.talkAnimations || ["Tlk00", "Tlk01", "Tlk02"];
+        return unit;
     }
 }
