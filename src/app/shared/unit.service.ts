@@ -19,9 +19,9 @@ export class UnitService {
 
     private loadFaction(faction: string): void {
         var app = fs.knownFolders.currentApp(),
-            file = app.path + '/assets/' + faction + '.json';
+            file = app.path + '/config/' + faction + '.json';
         if (fs.File.exists(file)) {
-            this.units[faction] = require(file);// '~/assets/...'
+            this.units[faction] = require(file);
         } else {
             console.warn("Faction data file " + faction + ".json not found.");
         }
