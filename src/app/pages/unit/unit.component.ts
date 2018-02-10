@@ -15,6 +15,7 @@ export class UnitComponent implements OnInit {
     faction: string;
     unit: Unit;
     sounds: Array<Sound>;
+    portrait: string;
 
     constructor(
         private route: ActivatedRoute,
@@ -27,6 +28,7 @@ export class UnitComponent implements OnInit {
         this.faction = this.route.snapshot.params['faction'];
         this.unit = this.unitService.getUnit(id);
         this.sounds = this.unit.sounds;
+        this.portrait = '~/assets/portraits/' + this.unit.id + '/Fid00.gif';
     }
 
     playSound(soundFile: string) {

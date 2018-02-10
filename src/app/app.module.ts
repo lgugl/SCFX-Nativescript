@@ -1,6 +1,8 @@
 import { NgModule } from "@angular/core";
 import { NativeScriptModule } from "nativescript-angular/nativescript.module";
 import { NativeScriptRouterModule } from "nativescript-angular/router";
+import { registerElement } from "nativescript-angular/element-registry";
+registerElement("Gif", () => require("nativescript-gif").Gif);
 
 import { AppComponent } from "./app.component";
 import { routes, navigatableComponents } from "./app.routing";
