@@ -7,6 +7,11 @@ import { UnitService } from "~/shared/unit.service";
 import { Sound } from "~/shared/sound";
 import { SoundService } from "~/shared/sound.service";
 
+enum AnimType {
+    fiddle,
+    talk
+}
+
 @Component({
     selector: "unit",
     moduleId: module.id,
@@ -16,7 +21,9 @@ export class UnitComponent implements OnInit {
     faction: string;
     unit: Unit;
     sounds: Array<Sound>;
-    portrait: string;
+    portraitSrc: string;
+    private portrait;
+    private animTimeout: number;
 
     constructor(
         private route: ActivatedRoute,
@@ -29,15 +36,7 @@ export class UnitComponent implements OnInit {
         this.faction = this.route.snapshot.params['faction'];
         this.unit = this.unitService.getUnit(id);
         this.sounds = this.unit.sounds;
-        var fiddleAnim = this.getRandomAnim(this.unit.fiddleAnimations);
-        var app = fs.knownFolders.currentApp(),
-            portraitFile = app.path + '/assets/portraits/' + this.unit.id + '/' + fiddleAnim + '.gif';
-        if (fs.File.exists(portraitFile)) {
-            this.portrait = portraitFile;
-        } else {
-            console.warn("Portrait file", this.unit.id + '/' + fiddleAnim + '.gif not found.');
-            this.portrait = '';
-        }
+        this.portraitSrc = this.getPortraitFile(AnimType.fiddle);
     }
 
     playSound(soundFile: string) {
@@ -46,5 +45,38 @@ export class UnitComponent implements OnInit {
 
     private getRandomAnim(animations: string[]): string {
         return animations[Math.floor(Math.random() * animations.length)];
+    }
+
+    private getPortraitFile(type: AnimType) {
+        var animations = (type === AnimType.talk) ?
+            this.unit.talkAnimations : this.unit.fiddleAnimations;
+        var anim = this.getRandomAnim(animations);
+        var portraitFile = fs.path.join(
+            fs.knownFolders.currentApp().path,
+            'assets/portraits',
+            this.unit.id,
+            anim + '.gif'
+        );
+        if (fs.File.exists(portraitFile)) {
+            return portraitFile;
+        } else {
+            console.warn("Portrait file", this.unit.id + '/' + anim + '.gif not found.');
+            return '';
+        }
+    }
+
+    portraitLoaded(args) {
+        this.portrait = args.object;
+        this.updatePortrait(AnimType.fiddle);
+    }
+
+    private updatePortrait(type: AnimType) {
+        if (this.animTimeout !== null) {
+            this.portrait.src = this.getPortraitFile(type);
+            clearTimeout(this.animTimeout);
+        }
+        this.animTimeout = setTimeout(() => {
+            this.updatePortrait(type)
+        }, this.portrait.getDuration());
     }
 }
