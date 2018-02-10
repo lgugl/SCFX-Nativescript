@@ -1,9 +1,9 @@
 <StackLayout>
     <Label [text]="faction + ' | ' + unit.id" textWrap="true"></Label>
-    <Gif [src]="portraitSrc" id="gifPortrait" (loaded)="portraitLoaded($event)" height="100"></Gif>
+    <Gif [src]="portraitSrc" (loaded)="portraitLoaded($event)" height="100"></Gif>
     <ListView [items]="sounds">
         <ng-template let-item="item">
-            <StackLayout (tap)="playSound(item.sound)">
+            <StackLayout (tap)="playSound(item)">
                 <Label [text]="item.name" ></Label>
                 <Label [text]="item.text" class="subtext" textWrap="true"></Label>
             </StackLayout>

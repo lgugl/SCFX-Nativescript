@@ -14,18 +14,23 @@ export class SoundService {
     }
 
     play(soundFile: string) {
-        this.player.playFromFile({
-            audioFile: "~/assets/sounds/" + soundFile + ".ogg",
-            loop: false,
-            completeCallback: (args: any) => {
-                this.player.dispose();
-            },
-            errorCallback: (args: any) => {
-                console.error("sound error:", args.error);
-            }
-        })
-        .catch(function() {
-            console.error("Unable to play sound", soundFile);
+        return new Promise((resolve, reject) => {
+            this.player.playFromFile({
+                audioFile: "~/assets/sounds/" + soundFile + ".ogg",
+                loop: false,
+                completeCallback: (args: any) => {
+                    resolve();
+                    this.player.dispose();
+                },
+                errorCallback: (args: any) => {
+                    console.error("Audio player error:", args.error);
+                    reject();
+                }
+            })
+            .catch(function() {
+                console.error("Unable to play sound", soundFile);
+                reject();
+            });
         });
     }
 }

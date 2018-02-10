@@ -39,15 +39,28 @@ export class UnitComponent implements OnInit {
         this.portraitSrc = this.getPortraitFile(AnimType.fiddle);
     }
 
-    playSound(soundFile: string) {
-        this.soundService.play(soundFile);
+    portraitLoaded(args): void {
+        this.portrait = args.object;
+        this.updatePortrait(AnimType.fiddle);
+    }
+
+    async playSound(sound: Sound) {
+        if (sound.text !== '') {
+            this.updatePortrait(AnimType.talk);
+        } else if (this.portraitIsTalking()) {
+            this.updatePortrait(AnimType.fiddle);
+        }
+        await this.soundService.play(sound.sound);
+        if (this.portraitIsTalking()) {
+            this.updatePortrait(AnimType.fiddle);
+        }
     }
 
     private getRandomAnim(animations: string[]): string {
         return animations[Math.floor(Math.random() * animations.length)];
     }
 
-    private getPortraitFile(type: AnimType) {
+    private getPortraitFile(type: AnimType): string {
         var animations = (type === AnimType.talk) ?
             this.unit.talkAnimations : this.unit.fiddleAnimations;
         var anim = this.getRandomAnim(animations);
@@ -65,18 +78,18 @@ export class UnitComponent implements OnInit {
         }
     }
 
-    portraitLoaded(args) {
-        this.portrait = args.object;
-        this.updatePortrait(AnimType.fiddle);
-    }
-
-    private updatePortrait(type: AnimType) {
+    private updatePortrait(type: AnimType): void {
         if (this.animTimeout !== null) {
             this.portrait.src = this.getPortraitFile(type);
-            clearTimeout(this.animTimeout);
+            if (this.portrait.src === '') return;
         }
+        clearTimeout(this.animTimeout);
         this.animTimeout = setTimeout(() => {
             this.updatePortrait(type)
         }, this.portrait.getDuration());
+    }
+
+    private portraitIsTalking(): boolean {
+        return /Tlk\d{2}\.gif$/.test(this.portrait.src);
     }
 }
