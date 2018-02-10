@@ -15,6 +15,7 @@ export class SoundService {
 
     play(soundFile: string) {
         return new Promise((resolve, reject) => {
+            this.player.dispose();
             this.player.playFromFile({
                 audioFile: "~/assets/sounds/" + soundFile + ".ogg",
                 loop: false,
