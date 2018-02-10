@@ -1,8 +1,8 @@
 import { Component, OnInit } from "@angular/core";
 import { ActivatedRoute } from "@angular/router";
 
-import { UnitService } from "./../../shared/unit.service";
-import { Unit } from "./../../shared/unit";
+import { UnitService } from "~/shared/unit.service";
+import { Unit } from "~/shared/unit";
 
 @Component({
   selector: "faction",

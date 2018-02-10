@@ -1,10 +1,10 @@
 import { Component, OnInit } from "@angular/core";
 import { ActivatedRoute } from "@angular/router";
 
-import { Unit } from "./../../shared/unit";
-import { UnitService } from "./../../shared/unit.service";
-import { Sound } from "./../../shared/sound";
-import { SoundService } from "./../../shared/sound.service";
+import { Unit } from "~/shared/unit";
+import { UnitService } from "~/shared/unit.service";
+import { Sound } from "~/shared/sound";
+import { SoundService } from "~/shared/sound.service";
 
 @Component({
     selector: "unit",
