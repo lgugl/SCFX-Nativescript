@@ -19,7 +19,7 @@ enum AnimType {
 })
 export class UnitComponent implements OnInit {
     faction: string;
-    unit: Unit;
+    unit: Unit|null;
     sounds: Array<Sound>;
     portraitSrc: string;
     private portrait;
@@ -31,11 +31,11 @@ export class UnitComponent implements OnInit {
         private soundService: SoundService
     ) {}
 
-    ngOnInit() {
+    ngOnInit(): void {
         var id = this.route.snapshot.params['id'];
         this.faction = this.route.snapshot.params['faction'];
         this.unit = this.unitService.getUnit(id);
-        this.sounds = this.unit.sounds;
+        this.sounds = (this.unit && this.unit.sounds) || [];
         this.portraitSrc = this.getPortraitFile(AnimType.fiddle);
     }
 
@@ -61,6 +61,9 @@ export class UnitComponent implements OnInit {
     }
 
     private getPortraitFile(type: AnimType): string {
+        if (!this.unit) {
+            return '';
+        }
         var animations = (type === AnimType.talk) ?
             this.unit.talkAnimations : this.unit.fiddleAnimations;
         var anim = this.getRandomAnim(animations);

@@ -13,7 +13,7 @@ export class SoundService {
         this.player.debug = false;
     }
 
-    play(soundFile: string) {
+    play(soundFile: string): Promise<void> {
         return new Promise((resolve, reject) => {
             this.player.dispose();
             this.player.playFromFile({

@@ -31,7 +31,7 @@ export class UnitService {
         return this.units[faction] || [];
     }
 
-    getUnit(id: string): Unit {
+    getUnit(id: string): Unit|null {
         for (let faction in this.units) {
             for (let unit of this.units[faction]) {
                 if (unit.id == id) {
