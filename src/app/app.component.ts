@@ -5,7 +5,6 @@ import { Page } from "ui/page";
     selector: "main",
     template: "<page-router-outlet></page-router-outlet>"
 })
-
 export class AppComponent {
     constructor(private page:Page) {}
     ngOnInit(): void {

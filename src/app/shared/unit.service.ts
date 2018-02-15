@@ -31,7 +31,7 @@ export class UnitService {
         return this.units[faction] || [];
     }
 
-    getUnit(id: string): Unit|null {
+    getUnit(id: string): Unit {
         for (let faction in this.units) {
             for (let unit of this.units[faction]) {
                 if (unit.id == id) {
@@ -39,7 +39,7 @@ export class UnitService {
                 }
             }
         }
-        return null;
+        throw new Error("Unit " + id + " not found!");
     }
 
     /** set default animation values if not returned by the config */
