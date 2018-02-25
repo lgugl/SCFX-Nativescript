@@ -3,9 +3,9 @@
 
 All sources found on [http://www.hazmatt.net/gaming/starcraft/](http://www.hazmatt.net/gaming/starcraft/).
 
-- [Protoss](/doc/protoss)
-- [Terran](/doc/terran)
-- [Zerg](/doc/zerg)
+- [Protoss](/doc/protoss.md)
+- [Terran](/doc/terran.md)
+- [Zerg](/doc/zerg.md)
 
 ---
 
