@@ -44,14 +44,8 @@ export class UnitComponent implements OnInit {
     }
 
     async playSound(sound: Sound) {
-        if (sound.text !== '') {
-            this.portraitSrc = this.portraitService.update(AnimType.talk);
-        } else if (this.portraitService.IsTalking()) {
-            this.portraitSrc = this.portraitService.update(AnimType.fiddle);
-        }
+        this.portraitSrc = this.portraitService.update(AnimType.talk);
         await this.soundService.play(sound.sound);
-        if (this.portraitService.IsTalking()) {
-            this.portraitSrc = this.portraitService.update(AnimType.fiddle);
-        }
+        this.portraitSrc = this.portraitService.update(AnimType.fiddle);
     }
 }
