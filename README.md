@@ -1,5 +1,7 @@
 # SCFX
-## Starcraft dialogues and SFX sound box app
+
+
+### A Starcraft dialogues and SFX sound box app.
 
 All sources found on [http://www.hazmatt.net/gaming/starcraft/](http://www.hazmatt.net/gaming/starcraft/).
 
@@ -7,7 +9,6 @@ All sources found on [http://www.hazmatt.net/gaming/starcraft/](http://www.hazma
 - [Terran](/doc/terran.md)
 - [Zerg](/doc/zerg.md)
 
----
 
 ## Installation
 
