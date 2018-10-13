@@ -2,10 +2,10 @@
     <Label [text]="faction + ' | ' + unit.id" textWrap="true"></Label>
     <Gif [src]="portraitSrc" (loaded)="portraitLoaded($event)" height="100"></Gif>
     <ListView [items]="sounds">
-        <ng-template let-item="item">
-            <StackLayout (tap)="playSound(item)">
-                <Label [text]="item.name" ></Label>
-                <Label [text]="item.text" class="subtext" textWrap="true"></Label>
+        <ng-template let-sound="item">
+            <StackLayout (tap)="playSound(sound)">
+                <Label [text]="sound.name" ></Label>
+                <Label [text]="sound.text" class="subtext" textWrap="true"></Label>
             </StackLayout>
         </ng-template>
     </ListView>
