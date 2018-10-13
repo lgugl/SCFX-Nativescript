@@ -23,7 +23,7 @@ ENV ANDROID_HOME /usr/local/android-sdk
 RUN yes | $ANDROID_HOME/tools/bin/sdkmanager "tools" "platform-tools" "platforms;android-25" "build-tools;25.0.2" "extras;android;m2repository" "extras;google;m2repository"
 
 # NATIVESCRIPT
-RUN npm install nativescript -g --unsafe-perm
+RUN npm install nativescript@3.4.0 -g --unsafe-perm
 RUN tns doctor
 
 # WORKDIR
