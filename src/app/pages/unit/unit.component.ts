@@ -8,6 +8,9 @@ import { SoundService } from "~/shared/sound.service";
 import { PortraitService } from "~/shared/portrait.service";
 import { AnimType } from "~/shared/anim-type";
 
+import { StackLayout } from "ui/layouts/stack-layout";
+import { Page } from "ui/page";
+
 @Component({
     selector: "unit",
     moduleId: module.id,
@@ -26,7 +29,8 @@ export class UnitComponent implements OnInit {
         private route: ActivatedRoute,
         private unitService: UnitService,
         private soundService: SoundService,
-        private portraitService: PortraitService
+        private portraitService: PortraitService,
+        private page:Page
     ) {}
 
     ngOnInit(): void {
@@ -44,8 +48,18 @@ export class UnitComponent implements OnInit {
     }
 
     async playSound(sound: Sound) {
+        // set active state for styling
+        let element: StackLayout = this.page.getViewById(sound.id);
+        element.addPseudoClass("playSound");
+        let animationTime: number = 1000;
+        setTimeout(() => {
+            element.deletePseudoClass("playSound");
+        }, animationTime);
+
+        // portrait & sound
         this.portraitSrc = this.portraitService.update(AnimType.talk);
         await this.soundService.play(sound.sound);
         this.portraitSrc = this.portraitService.update(AnimType.fiddle);
+
     }
 }

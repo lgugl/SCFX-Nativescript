@@ -3,7 +3,7 @@
     <Gif [src]="portraitSrc" (loaded)="portraitLoaded($event)" height="100"></Gif>
     <ListView [items]="sounds">
         <ng-template let-sound="item">
-            <StackLayout (tap)="playSound(sound)">
+            <StackLayout (tap)="playSound(sound)" [id]="sound.id">
                 <Label [text]="sound.name" ></Label>
                 <Label [text]="sound.text" class="subtext" textWrap="true"></Label>
             </StackLayout>
