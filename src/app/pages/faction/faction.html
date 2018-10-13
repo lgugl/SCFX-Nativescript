@@ -2,8 +2,8 @@
     <Label [text]="id"></Label>
     <ListView [items]="units">
         <ng-template let-faction="item">
-            <StackLayout>
-                <Label [text]="faction.name" [nsRouterLink]="['/faction', id, 'unit', faction.id]"></Label>
+            <StackLayout [nsRouterLink]="['/faction', id, 'unit', faction.id]">
+                <Label [text]="faction.name"></Label>
                 <Label [text]="faction.frenchName" class="subtext"></Label>
             </StackLayout>
         </ng-template>
