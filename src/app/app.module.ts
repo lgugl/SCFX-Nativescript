@@ -7,8 +7,8 @@ registerElement("Gif", () => require("nativescript-gif").Gif);
 import { AppComponent } from "./app.component";
 import { routes, navigatableComponents } from "./app.routing";
 
-import { UnitService } from "./shared/unit.service";
-import { SoundService } from "./shared/sound.service";
+import { UnitService } from "./services/unit.service";
+import { SoundService } from "./services/sound.service";
 
 @NgModule({
     imports: [

@@ -2,7 +2,7 @@ import { Injectable } from "@angular/core";
 import * as fs from "tns-core-modules/file-system";
 import { TNSPlayer } from "nativescript-audio";
 
-import { Sound } from "./sound";
+import { Sound } from "~/models/sound";
 
 @Injectable()
 export class SoundService {

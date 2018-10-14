@@ -1,8 +1,8 @@
 import { Injectable } from "@angular/core";
 import * as fs from "tns-core-modules/file-system";
 
-import { Unit } from "~/shared/unit";
-import { AnimType } from "~/shared/anim-type";
+import { Unit } from "~/models/unit";
+import { AnimType } from "~/models/anim-type";
 
 @Injectable()
 export class PortraitService {

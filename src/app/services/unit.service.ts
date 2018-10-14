@@ -1,7 +1,7 @@
 import { Injectable } from "@angular/core";
 import * as fs from "tns-core-modules/file-system";
 
-import { Unit } from "./unit";
+import { Unit } from "~/models/unit";
 
 // type unitsType = {
 //     [key: string]: Unit[]

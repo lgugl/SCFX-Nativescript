@@ -1,4 +1,4 @@
-import { Sound } from "./sound";
+import { Sound } from "~/models/sound";
 
 export interface Unit {
     id: string,

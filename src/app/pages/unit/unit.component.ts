@@ -1,12 +1,12 @@
 import { Component, OnInit } from "@angular/core";
 import { ActivatedRoute } from "@angular/router";
 
-import { Unit } from "~/shared/unit";
-import { UnitService } from "~/shared/unit.service";
-import { Sound } from "~/shared/sound";
-import { SoundService } from "~/shared/sound.service";
-import { PortraitService } from "~/shared/portrait.service";
-import { AnimType } from "~/shared/anim-type";
+import { Unit } from "~/models/unit";
+import { UnitService } from "~/services/unit.service";
+import { Sound } from "~/models/sound";
+import { SoundService } from "~/services/sound.service";
+import { PortraitService } from "~/services/portrait.service";
+import { AnimType } from "~/models/anim-type";
 
 import { StackLayout } from "ui/layouts/stack-layout";
 import { Page } from "ui/page";
