@@ -1,0 +1,35 @@
+#home {
+    text-align: center;
+    padding-top: 16;
+}
+
+#main-title {
+    font-family: "Starcraft";
+    font-size: 48;
+}
+
+#main-subtitle {
+    font-family: "Quark-Light";
+    font-size: 24;
+}
+
+.fact-button {
+    margin: 16 32;
+    padding: 16;
+    font-size: 32;
+    font-family: "Quark-Light";
+    text-transform: uppercase;
+    color: darkslategray;
+    background-color: white;
+    border-top-width: 2;
+    border-top-color: white;
+    border-bottom-width: 2;
+    border-bottom-color: orange;
+}
+
+.fact-button:active {
+    color: gray;
+    border-top-color: rgba(0,0,0,.1);
+    border-bottom-color: white;
+    padding: 18 16 14;
+}

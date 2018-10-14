@@ -1,24 +1,37 @@
 Page {
-    background-size: 50% 33%;
     background-image: url("res://app_background");
+    background-size: 50% 33%;
+    /* font-size: 16; */
     font-size: 24;
+    font-family: "eau_sans_bold", sans-serif;
+    color: black;
 }
 
-.button {
-    background-color: papayawhip;
-}
+.font1 {font-family: "eau_sans_book";}
+.font2 {font-family: "eau_sans_bold";}
+.font3 {font-family: "eau_sans_black";}
+.font4 {font-family: "Quark-Light";}
+.font5 {font-family: "Quark-Bold";}
+.font6 {font-family: "LeagueSpartan-Bold";}
+.font7 {font-family: "Starcraft";}
+
+
 
 .subtext {
     color: #b4b4b4;
     font-size: 12;
 }
 
+ActionBar {
+    height: 0;
+}
+
 StackLayout:playSound {
-    animation-name: activeSelection;
+    animation-name: active-selection;
     animation-duration: 1s;
 }
 
-@keyframes activeSelection {
+@keyframes active-selection {
     from {
         background-color: rgb(255, 204, 102, 1);
     }

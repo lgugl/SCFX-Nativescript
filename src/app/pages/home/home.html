@@ -1,6 +1,23 @@
-<StackLayout>
-    <Label text="Hello SCFX" textWrap="true"></Label>
-    <Button text="Protoss" class="button" [nsRouterLink]="['/faction/protoss']"></Button>
-    <Button text="Terran" class="button" [nsRouterLink]="['/faction/terran']"></Button>
-    <Button text="Zerg" class="button" [nsRouterLink]="['/faction/zerg']"></Button>
-</StackLayout>
+<GridLayout id="home" columns="*" rows="auto, *">
+    <StackLayout row="0" col="0">
+        <Label text="SCFX" textWrap="true" id="main-title"></Label>
+        <Label text="a Starcraft sound box" textWrap="true" id="main-subtitle"></Label>
+    </StackLayout>
+
+
+    <FlexboxLayout row="1" col="0" flexDirection="column" justifyContent="center" flexGrow="1">
+        <!-- <app-button text="Protoss" route="/faction/protoss"></app-button>
+        <app-button text="Terran" route="/faction/terran"></app-button>
+        <app-button text="Zerg" route="/faction/zerg"></app-button> -->
+        <Label text="Protoss" class="fact-button" [nsRouterLink]="['/faction/protoss']" (tap)="onFactButtonTap($event)"></Label>
+        <Label text="Terran" class="fact-button" [nsRouterLink]="['/faction/terran']" (tap)="onFactButtonTap($event)"></Label>
+        <Label text="Zerg" class="fact-button" [nsRouterLink]="['/faction/zerg']" (tap)="onFactButtonTap($event)"></Label>
+    </FlexboxLayout>
+
+
+    <!-- <Label text="Starcraft FX" class="font1"></Label>
+    <Label text="Starcraft FX" class="font2"></Label>
+    <Label text="Starcraft FX" class="font3"></Label>
+    <Label text="Starcraft FX" class="font4"></Label>
+    <Label text="Starcraft FX" class="font5"></Label> -->
+</GridLayout>
