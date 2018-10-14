@@ -7,6 +7,7 @@ registerElement("Gif", () => require("nativescript-gif").Gif);
 import { AppComponent } from "./app.component";
 import { routes, navigatableComponents } from "./app.routing";
 
+import * as components from "./components";
 import { UnitService } from "./services/unit.service";
 import { SoundService } from "./services/sound.service";
 
@@ -18,7 +19,8 @@ import { SoundService } from "./services/sound.service";
     ],
     declarations: [
         AppComponent,
-        ...navigatableComponents
+        ...navigatableComponents,
+        components.AppButtonComponent
     ],
     bootstrap: [
         AppComponent

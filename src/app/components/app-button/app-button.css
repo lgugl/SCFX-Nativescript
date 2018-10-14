@@ -1,0 +1,11 @@
+.app-button {
+    margin: 16 32;
+    padding: 16;
+    font-size: 32;
+    font-family: "Quark-Light";
+    text-transform: uppercase;
+    color: darkslategray;
+    background-color: white;
+    border-bottom-width: 2;
+    border-bottom-color: orange;
+}
